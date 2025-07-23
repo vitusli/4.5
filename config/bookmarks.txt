@@ -1,5 +1,8 @@
 [Bookmarks]
 [Recent]
+/Volumes/T7 Shield/Creative/3D/Blender/01 Assets/gobos/
+/Volumes/T7 Shield/Creative/3D/Blender/01 Assets/Asset Browser/Light/Gobos Light Textures/
+/Volumes/T7 Shield/Creative/3D/Blender/01 Assets/Asset Browser/Light/SMOUSE Gobo Pack v1/
 /Users/vituspacholleck/Library/Application Support/Blender/4.5/light assets/
 /Users/vituspacholleck/Library/Application Support/Blender/4.5/light assets/Extra_Nodes_b4.4/
 /Volumes/T7 Shield/Creative/3D/Blender/02 Addons/Blender 4.x/
@@ -7,6 +10,3 @@
 /Users/vituspacholleck/Downloads/
 /Users/vituspacholleck/codespace/blender/
 /Volumes/T7 Shield/Creative/3D/Blender/03 Projekte/VTools/
-/Volumes/T7 Shield/Creative/3D/Blender/01 Assets/Machine Assets/DecalMachine/Decals/Aircraft/
-/Volumes/T7 Shield/Creative/3D/Blender/01 Assets/Machine Assets/DecalMachine/Decals/
-/Volumes/T7 Shield/Creative/3D/Blender/01 Assets/Machine Assets/DecalMachine/

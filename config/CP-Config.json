@@ -231,6 +231,12 @@
             "display_name": "",
             "addons": "render_raw",
             "ordered": ""
+        },
+        {
+            "name": "Edit",
+            "display_name": "",
+            "addons": "looptools",
+            "ordered": ""
         }
     ],
     "addon_info_for_renaming": [
@@ -425,6 +431,14 @@
             "identifier": "bl_ext.user_default.renderset_personal",
             "space": "VIEW_3D",
             "backup_tab_name": "polygoniq"
+        },
+        {
+            "name": "looptools",
+            "display_name": "LoopTools",
+            "tab_name": "Edit",
+            "identifier": "bl_ext.blender_org.looptools",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Edit"
         }
     ],
     "addon_info_index": 0,
