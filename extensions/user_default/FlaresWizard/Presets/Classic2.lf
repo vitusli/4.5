@@ -1,0 +1,568 @@
+{
+     "ui_name": "Classic2",
+     "intensity": 1.0,
+     "scale": 1.0,
+     "color": [
+          1.0,
+          0.8655572533607483,
+          0.4872095286846161,
+          1.0
+     ],
+     "elements": [
+          {
+               "use_global_color": 0.800000011920929,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 10.0,
+               "ui_name": "Glow main",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 0.6000000238418579,
+               "scale_y": 0.6000000238418579,
+               "light_falloff": 2.5,
+               "interpolation": "0",
+               "hide": false,
+               "type": "GLOW",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.2094016969203949,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    0.49290430545806885,
+                    0.834159791469574,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 15.0,
+               "ui_name": "Glow large",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 1.0,
+               "scale_y": 1.0,
+               "light_falloff": 2.200000047683716,
+               "interpolation": "0",
+               "hide": false,
+               "type": "GLOW",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.8999999761581421,
+               "intensity": 10.0,
+               "position": 0.0,
+               "scale_x": 3.0,
+               "scale_y": 0.10000000149011612,
+               "ui_name": "Streaks",
+               "light_falloff": 2.0,
+               "hide": false,
+               "random_rot": 0.0,
+               "random_rot_seed": 0,
+               "random_scale": 0.0,
+               "random_scale_seed": 0,
+               "interpolation": "2",
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "streaks_count": 4,
+               "rotation": 0.0,
+               "track_target": false,
+               "type": "STREAKS",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.0,
+               "intensity": 0.0,
+               "position": -0.5559999942779541,
+               "scale_x": 0.20000000298023224,
+               "scale_y": 0.20000000298023224,
+               "ui_name": "Ghosts",
+               "image": "Poly_octagon.png",
+               "hide": false,
+               "random_rot": 0.0,
+               "random_rot_seed": 0,
+               "random_scale": 0.6000000238418579,
+               "random_scale_seed": 95,
+               "ghosts_count": 10,
+               "ghosts_distance": 0.2669999599456787,
+               "ghosts_random_distance": 0.09900006651878357,
+               "ghosts_random_x": 0.0,
+               "ghosts_random_y": 0.0,
+               "ghosts_random_loc_seed": 15,
+               "ghosts_random_col_seed": 34,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "type": "GHOSTS",
+               "proximity_trigger": true,
+               "proximity_intensity": 0.07500000298023224,
+               "proximity_color_ramp": {
+                    "interpolation": "EASE",
+                    "elements": [
+                         [
+                              0.1631799340248108,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.8744769096374512,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               },
+               "ghost_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.10199921578168869,
+                                   0.0,
+                                   0.9770632386207581,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.5,
+                              [
+                                   0.9885305762290955,
+                                   0.2611173987388611,
+                                   0.0008692730916664004,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   0.03979700058698654,
+                                   0.19204699993133545,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.25,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 0.05000000074505806,
+               "ui_name": "Ring",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 0.75,
+               "scale_y": 0.75,
+               "interpolation": "3",
+               "hide": false,
+               "circular_completion": 0.0,
+               "completion_feather": 0.0,
+               "ring_ray_count": 88,
+               "ring_ray_length": 1.0,
+               "ring_random_length": 1.0,
+               "ring_length_seed": 0,
+               "ring_ray_width": 0.6364843845367432,
+               "ring_random_width": 0.90625,
+               "ring_width_seed": 0,
+               "use_spectrum": 0.25,
+               "spectrum_offset": 1.2280000448226929,
+               "spectrum_interpolation": "1",
+               "distortion": 0.0,
+               "noise_scale": 1.0,
+               "type": "RING",
+               "proximity_trigger": true,
+               "proximity_intensity": 0.0,
+               "proximity_color_ramp": {
+                    "interpolation": "EASE",
+                    "elements": [
+                         [
+                              0.17991630733013153,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.25,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 0.10000000149011612,
+               "position": -2.129999876022339,
+               "scale_x": 1.100000023841858,
+               "ui_name": "Hoop",
+               "scale_y": 1.100000023841858,
+               "interpolation": "2",
+               "hide": false,
+               "circular_completion": 0.923046886920929,
+               "completion_feather": 1.0,
+               "ring_ray_count": 0,
+               "ring_ray_length": 0.4359999895095825,
+               "ring_random_length": 0.0,
+               "ring_length_seed": 0,
+               "ring_ray_width": 1.0,
+               "ring_random_width": 0.5,
+               "ring_width_seed": 0,
+               "use_spectrum": 1.0,
+               "spectrum_offset": 1.0839999914169312,
+               "spectrum_interpolation": "3",
+               "distortion": 0.0,
+               "noise_scale": 1.0,
+               "type": "HOOP",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 0.0,
+               "position": 1.4010000228881836,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 1.5707963705062866,
+               "track_target": true,
+               "scale_x": 0.23000000417232513,
+               "scale_y": 0.23000000417232513,
+               "image": "Element_21.png",
+               "hide": false,
+               "type": "IMAGE",
+               "ui_name": "Image",
+               "fade_distance": 0.4950000047683716,
+               "feather": 0.5,
+               "proximity_trigger": true,
+               "proximity_intensity": 2.0,
+               "proximity_color_ramp": {
+                    "interpolation": "EASE",
+                    "elements": [
+                         [
+                              0.22268909215927124,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    0.03979700058698654,
+                    0.19204699993133545,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 0.0,
+               "position": 0.6299999356269836,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 0.5049999952316284,
+               "scale_y": 0.5049999952316284,
+               "image": "Poly_octagon_smt1.png",
+               "hide": false,
+               "type": "IMAGE",
+               "ui_name": "Image2",
+               "fade_distance": 2.4599997997283936,
+               "feather": 0.75,
+               "proximity_trigger": true,
+               "proximity_intensity": 0.10000000149011612,
+               "proximity_color_ramp": {
+                    "interpolation": "EASE",
+                    "elements": [
+                         [
+                              0.25630253553390503,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    0.03979700058698654,
+                    0.19204699993133545,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 0.0,
+               "position": 0.9809998869895935,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 0.3789999783039093,
+               "scale_y": 0.3789999783039093,
+               "image": "Poly_octagon_smt1.png",
+               "hide": false,
+               "type": "IMAGE",
+               "ui_name": "Image3",
+               "fade_distance": 1.4639999866485596,
+               "feather": 0.75,
+               "proximity_trigger": true,
+               "proximity_intensity": 0.125,
+               "proximity_color_ramp": {
+                    "interpolation": "EASE",
+                    "elements": [
+                         [
+                              0.25630253553390503,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    0.03979712724685669,
+                    0.19204749166965485,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 0.0,
+               "position": 1.8420000076293945,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 0.4099999964237213,
+               "scale_y": 0.4099999964237213,
+               "image": "Poly_octagon_smt1.png",
+               "hide": false,
+               "type": "IMAGE",
+               "ui_name": "Image4",
+               "fade_distance": 0.75,
+               "feather": 0.75,
+               "proximity_trigger": true,
+               "proximity_intensity": 0.15000000596046448,
+               "proximity_color_ramp": {
+                    "interpolation": "EASE",
+                    "elements": [
+                         [
+                              0.25630253553390503,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          }
+     ]
+}

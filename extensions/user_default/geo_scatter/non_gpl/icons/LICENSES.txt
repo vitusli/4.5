@@ -1,0 +1,88 @@
+
+• ICONS LICENSING INFORMATION :
+
+    In this file we will specify licenses or icons present in this 
+    folder and/or subfolder.
+
+    • The following icon files:
+        "W_ARROW_SWINGY.png , W_AFFINITY.png , W_ALTITUDE.png ,
+        W_ARROW_MERGE.png , W_ARROW_NORMAL.png , W_ARROW_SPLIT.png, W_BIOME.png , W_ARROW_TANGENT.png ,
+        W_ASPECT.png , W_BAR_VERTICAL.png, W_DISTCLUMP.png , W_CHECKMARK.png , W_CLUMP.png , W_CLUMP_STRAIGHT.png ,
+        W_CONVERT.png , W_CURVATURE.png , W_DEFAULT_EMPTY.png , W_DEFAULT_NO_PRESET_FOUND.png , W_DICE.png 
+        W_DISTBEZIER.png, W_ECOSYSTEM.png , W_DISTDEFORM.png , W_DISTMANUAL.png , W_DISTRANDOM.png ,
+        W_DISTVOLUME.png, W_MEASURE_HEIGHT.png , W_ECOSYSTEM.png , W_GROUP_TOGGLE_MAXLOAD_ALL.png ,
+        W_GROUP_TOGGLE_MAXLOAD_NONE.png , W_GROUP_TOGGLE_MAXLOAD_SOME.png , W_GROUP_TOGGLE_PERC_ALL.png ,
+        W_GROUP_TOGGLE_PERC_NONE.png , W_GROUP_TOGGLE_PERC_SOME.png , W_INDENT_LAST.png , W_INDENT_LINE.png ,
+        W_INDENT_TREE.png, W_TEXTWHITENOISE.png , W_PATTERN1.png , W_PATTERN2.png , W_PATTERN3.png ,
+        W_PERCENTAGE.png , W_PERCENTAGE_FALSE.png , W_PERCENTAGE_TRUE.png , W_PROXBOU.png , W_REPULSION.png ,
+        W_SHOW_DICE.png , W_SLOPE.png , W_SUPERMARKET.png , W_TERRAIN.png , W_TEXTBRICK.png , W_TEXTCHECKER.png ,
+        W_TEXTIMG.png , W_TEXTMAGIC.png , W_TEXTMUSGRAVE.png , W_TEXTNOISE.png , W_TEXTVORONOI.png , W_TEXTWAVES.png,
+        W_1.png , W_2.png , W_3.png , W_ARROW_OUTWARD.png , W_ARROW_CENTER.png , W_ARROW_CURVY.png , W_ARROW_MIX.png,
+        W_GEO_FILTER.png , W_BUCKET.png , W_CLICK.png , W_DILLUTE.png, W_ROTATION_RANDOM.png , W_ROTATION_SET.png ,
+        W_ROTATION_SETTINGS.png , W_SCALE_RANDOM.png , W_SCALE_SET.png , W_SCALE_SETTINGS.png , W_SPATTER.png ,
+        W_TREE1.png , W_TREE2.png, W_DISTANCE_Z.png, W_STATISTICS.png , W_SPRAY.png"
+
+        Including:
+            -All icons located in "PluginFolder/resources/icons/placeholder"
+            -All icons in .dat format located in "PluginFolder/resources/icons/dat icons"
+
+        These icons are protected under copyright and licensed exclusively for use within authorized
+        products by“BD3D DIGITAL DESIGN, SLU”. Redistribution, modification, or creation of derivative works
+        based on these icons is strictly prohibited without explicit written permission.
+
+        • Usage Rights:
+            -Allowed:
+                These icons may be used only within the products and projects for which it has been 
+                licensed by “BD3D DIGITAL DESIGN, SLU”.
+            -Not Allowed:
+                Redistribution or resale of this icon, whether in original or modified form.
+                Creation of derivatives or adaptations based on this icon.
+            -Attribution:
+                If the icon appears within an authorized product, attribution to “BD3D DIGITAL DESIGN, SLU” 
+                is required, where feasible.
+            -Info:
+                For questions or permissions beyond these terms, please contact “BD3D DIGITAL DESIGN, SLU” 
+                directly at 'contact@geoscatter.com'
+
+    • The following icon files:
+        "W_SCATTER.png, W_MARKET.pn, W_FACEBOOK.png, W_INSTAGRAM.png,
+        W_TWITTER.png, W_YOUTUBE.png"
+
+        These icons are released under a permissive  CC0 license, allowing free
+        usage across various projects. However, any usage must comply with relevant brand and trademark
+        guidelines for the respective companies. Refer to the brand guidelines below to ensure compliance:
+
+        • Usage Rights:
+            Branding and Trademark Compliance:
+            Any usage associated with these brands must adhere to each company's specific branding and trademark policies, as follows:
+                - Geo-Scatter: Trademark and brand guidelines for “Geo-Scatter” must be observed, especially in contexts implying endorsement or affiliation.
+                - Blender Market (Autotroph): Use of icons in connection with Blender Market is subject to Autotroph’s branding policies.
+                - Facebook (Meta): Any appearance of the Facebook icon must comply with Meta’s trademark policies to avoid misleading associations.
+                - Instagram (Meta): The Instagram icon usage should align with Meta’s official brand usage guidelines.
+                - Twitter (X): The Twitter (X) icon may not be used to imply official endorsement or affiliation unless specified in X’s guidelines.
+                - YouTube (Google): For any YouTube-related usage, refer to Google’s trademark and branding policies to ensure compliance.
+
+    • The following icon files:
+        "W_SNAP.png, W_SNAP1.png, W_SNAP2.png, W_PREFERENCES.png, W_QUESTION.png, W_REVERSE_X.png, W_REVERSE_Y.png,
+        W_SCALE_GROW.png, W_SCALE_SHRINK.png, W_SHOW_DISPLAY_OFF.png, W_SHOW_DISPLAY_ON.png, W_SHOW_RENDER_OFF.png,
+        W_SHOW_RENDER_OFF1.png, W_SHOW_RENDER_ON.png, W_SHOW_VIEWPORT_OFF.png, W_SHOW_VIEWPORT_OFF1.png, W_SHOW_VIEWPORT_ON.png,
+        W_SHOW_VIS_CLIP_OFF.png, W_SHOW_VIS_CLIP_ON.png, W_SHOW_VIS_VIEW_OFF.png, W_SHOW_VIS_VIEW_ON.png, W_SIZE_DOWN.png,
+        W_SIZE_UP.pn, W_BLANK1.png, W_BOARD_APPLY.png, W_BOARD_COPY.png, W_BOARD_PASTE.png, W_BORDER.png, W_CHECKBOX_FALSE.png,
+        W_CHECKBOX_TRUE.png, W_DEFAULT_PREVIEW.pn, W_ARROW_SYNC_GREY.png, W_ARROW_SYNC.pn, W_FOLDER_OPEN.png, W_GROUP_TOGGLE_CLIP_ALL.png,
+        W_GROUP_TOGGLE_CLIP_NONE.png, W_GROUP_TOGGLE_CLIP_SOME.png, W_GROUP_TOGGLE_DISP_ALL.png, W_GROUP_TOGGLE_DISP_NONE.png,
+        W_GROUP_TOGGLE_DISP_SOME.png, W_GROUP_TOGGLE_LOCK_ALL.png, W_GROUP_TOGGLE_LOCK_NONE.png, W_GROUP_TOGGLE_LOCK_SOME.png,
+        W_GROUP_TOGGLE_RENDER_ALL.png, W_GROUP_TOGGLE_RENDER_NONE.png, W_GROUP_TOGGLE_RENDER_NONE1.png, W_GROUP_TOGGLE_RENDER_SOME.png,
+        W_GROUP_TOGGLE_RENDER_SOME1.png, W_GROUP_TOGGLE_SEL_ALL.png, W_GROUP_TOGGLE_SEL_NONE.png, W_GROUP_TOGGLE_SEL_SOME.png,
+        W_GROUP_TOGGLE_VIEW_ALL.png, W_GROUP_TOGGLE_VIEW_NONE.png, W_GROUP_TOGGLE_VIEW_SOME.png, W_INFO.png, W_LOCKED_GREY.png,
+        W_MEMBER_ADD.png, W_MIRROR_X.png, W_MIRROR_Y.png, W_MOVE.png, W_MOVE_LEFT.png, W_MOVE_RIGHT.png, W_NORMALIZE.png, W_PANEL_CLOSED.png,
+        W_PANEL_CLOSED_ACTIVE.png, W_PANEL_CLOSED_R.png, W_PANEL_OPEN.png, W_PANEL_OPEN_ACTIVE.png, W_DISTEDGES.png, W_DISTEDGESMIDDLE.png,
+        W_DISTEDGESSTART.png, W_DISTFACES.png, W_DISTVERTS.png, W_DISTVOLUME.png, W_EMITTER.png, W_EMITTER_EMPTY.png, W_EMITTER_RED.png,
+        W_EXPORT_FILE.png, W_FOLDER.png, W_FOLDER_CLOSED.pn, W_SECURITY_MESH.png, W_SECURITY_PARTICLE.png, W_SELECT_FULL.png, W_ERASER.png,
+        W_PAINT.png, W_PATH.png, W_PREFERENCES_TINY.png"
+
+        These icons are derivative works based on icons originally created by the artist jendrzych, published 
+        at https://devtalk.blender.org/t/new-icons-for-blender-2-8x/4651/1116 and licensed under the Creative Commons
+        Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). For the full license text,
+        please visit https://creativecommons.org/licenses/by-sa/4.0 for usage rights.
+
+© 2024 “BD3D DIGITAL DESIGN, SLU”. All rights reserved.

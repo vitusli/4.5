@@ -1,0 +1,229 @@
+{
+     "ui_name": "Simple Anamorphic7",
+     "intensity": 1.0,
+     "scale": 1.0,
+     "color": [
+          0.0015055753756314516,
+          0.04614439979195595,
+          1.0,
+          1.0
+     ],
+     "elements": [
+          {
+               "use_global_color": 0.8999999761581421,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    0.691266655921936,
+                    0.37020692229270935,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 30.0,
+               "ui_name": "Glow Core",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 1.6410000324249268,
+               "scale_y": 0.8910000324249268,
+               "light_falloff": 1.25,
+               "interpolation": "2",
+               "hide": false,
+               "type": "GLOW",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    0.6277899742126465,
+                    0.8313789963722229,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 20.0,
+               "ui_name": "Glow Large",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 0.6000000238418579,
+               "scale_y": 0.375,
+               "light_falloff": 1.8700000047683716,
+               "interpolation": "0",
+               "hide": false,
+               "type": "GLOW",
+               "proximity_trigger": true,
+               "proximity_intensity": 40.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.5000001192092896,
+                                   0.5000001192092896,
+                                   0.5000001192092896,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.30319151282310486,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.6063830256462097,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 1.0,
+               "intensity": 2.0,
+               "position": 0.0,
+               "scale_x": 13.5,
+               "scale_y": 0.75,
+               "ui_name": "Streaks",
+               "light_falloff": 1.5,
+               "hide": false,
+               "interpolation": "2",
+               "color": [
+                    1.0,
+                    0.5321363806724548,
+                    0.4603836238384247,
+                    1.0
+               ],
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "streaks_count": 1,
+               "rotation": 0.0,
+               "track_target": false,
+               "type": "STREAKS",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.0,
+               "intensity": 5.0,
+               "position": 0.0,
+               "scale_x": 1.100000023841858,
+               "scale_y": 0.22499999403953552,
+               "ui_name": "Streaks Vertical",
+               "light_falloff": 1.899999976158142,
+               "hide": false,
+               "interpolation": "0",
+               "color": [
+                    0.6277900338172913,
+                    0.8313792943954468,
+                    1.0,
+                    1.0
+               ],
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "streaks_count": 1,
+               "rotation": 1.5707963705062866,
+               "track_target": false,
+               "type": "STREAKS",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          }
+     ]
+}

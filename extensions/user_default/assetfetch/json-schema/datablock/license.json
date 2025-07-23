@@ -1,0 +1,24 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "License Datablock",
+	"$id": "af.datablock.license",
+	"description": "Contains license information.",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"license_spdx": {
+			"type": [
+				"string",
+				"null"
+			]
+		},
+		"license_uri": {
+			"type": [
+				"string",
+				"null"
+			],
+			"format": "uri"
+		}
+	},
+	"required": []
+}

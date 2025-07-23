@@ -1,0 +1,9 @@
+blender_version_min= "4.2.0"
+id= "FlaresWizard"
+license= ["SPDX=GPL-2.0-or-later",]
+maintainer= "Monaime Zaim"
+name= "Flares Wizard"
+schema_version= "1.0.0"
+tagline= "Lens Flares Generator"
+type= "add-on"
+version= "3.2.2"

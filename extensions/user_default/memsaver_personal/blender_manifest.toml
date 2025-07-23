@@ -1,0 +1,22 @@
+schema_version = "1.0.0"
+
+id = "memsaver_personal"
+version = "1.3.0"
+name = "memsaver_personal"
+tagline = "Saves memory by resizing images based on their size in render"
+maintainer = "polygoniq <ahoy@polygoniq.com>"
+type = "add-on"
+
+website = "https://docs.polygoniq.com/memsaver/1.3.0/"
+tags = ["Material", "Mesh", "Scene", "User Interface"]
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+  "2018- polygoniq xyz s.r.o",
+]
+
+[permissions]
+files = "Stores resized images, stores logs"

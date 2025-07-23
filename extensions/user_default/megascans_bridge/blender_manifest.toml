@@ -1,0 +1,26 @@
+schema_version = "1.0.0"
+
+id = "megascans_bridge"  # root folder name with underscores
+version = "2.1.0"
+name = "Megascans Bridge"
+tagline = "Import Megascans assets directly from Blender"
+maintainer = "Karan @b3dhub"
+type = "add-on"
+tags = ["Object", "Material", "Node", "Texture"]
+website = "https://superhivemarket.com/products/megascans-bridge"
+
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-2.0-or-later"]
+copyright = ["2022-2025 B3dHub"]
+
+# # Optional: bundle 3rd party Python modules.
+# # https://docs.blender.org/manual/en/dev/advanced/extensions/python_wheels.html
+wheels = [
+    # "./wheels/qbpy-1.0.0-py3-none-any.whl",
+    "./wheels/pillow-11.1.0-cp311-cp311-win_amd64.whl",
+    "./wheels/pillow-11.1.0-cp311-cp311-macosx_11_0_arm64.whl",
+    "./wheels/pillow-11.1.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+]
+
+# [permissions]
+# files = "Add-on saves textures to disk"

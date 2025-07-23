@@ -1,0 +1,32 @@
+{
+    "Object Mode": {
+        "machin3.focus": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": true,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "method": 1,
+                    "invert": 1
+                }
+            },
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "F",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "method": 1,
+                    "invert": 0
+                }
+            }
+        ]
+    }
+}

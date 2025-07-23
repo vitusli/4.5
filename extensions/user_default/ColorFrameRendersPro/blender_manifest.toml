@@ -1,0 +1,26 @@
+schema_version = "1.0.0"
+id = "ColorFrameRendersPro"
+version = "4.1.14"
+name = "ColorFrame Renders Pro"
+tagline = "Create Beautiful Colored Wireframe Renders"
+maintainer = "Amandeep"
+type = "add-on"
+website = "NONE"
+tags = ["Compositing","Grease Pencil","Render"]
+
+blender_version_min = "2.93.0"
+
+
+# License conforming to https://spdx.org/licenses/ (use "SPDX: prefix)
+# https://docs.blender.org/manual/en/dev/advanced/extensions/licenses.html
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
+copyright = [
+    "2024 Amandeep",
+]
+
+[permissions]
+files = "To save and load preferences"
+network = "To check for addon updates"
+clipboard = "To paste palettes"

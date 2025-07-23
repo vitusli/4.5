@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- prettier-ignore -->
+    <style>
+      {STYLE}
+    </style>
+  </head>
+  <body>
+    <!-- Main container: left panel for tree view, right panel for file details -->
+    <div class="container">
+      <div id="treeview" class="treeview">
+        <!-- Tree view will be generated here -->
+      </div>
+      <div id="dataView" class="dataView">
+        <div id="buttonsHeader" class="buttonsHeader">
+          <span>View:</span>
+          <div id="viewModeButtons" class="viewModeButtons"></div>
+          <span id="sortModeLabel">Sort Files:</span>
+          <div id="sortModeButtons" class="sortModeButtons"></div>
+          <span id="timestamp"></span>
+          <input type="text" id="searchInput" placeholder="Search..." />
+          <a
+            href="https://docs.polygoniq.com/memsaver/{MEMSAVER_VERSION}/advanced_topics/estimate_memory_usage/index.html"
+            class="button"
+            >Documentation</a
+          >
+        </div>
+        <div id="content" class="content">
+          <!-- File details will be generated here -->
+          <h2>Select a file or folder from the tree view</h2>
+          <p>File details will appear here.</p>
+        </div>
+      </div>
+    </div>
+    <!-- JSON data -->
+    <!-- prettier-ignore -->
+    <div id="jsonData" style="display: none">
+        {JSON_DATA}
+    </div>
+    <!-- prettier-ignore -->
+    <script>
+        {SCRIPT}
+    </script>
+  </body>
+</html>

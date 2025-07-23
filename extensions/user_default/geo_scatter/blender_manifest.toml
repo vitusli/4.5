@@ -1,0 +1,21 @@
+
+schema_version = "1.0.0"
+
+
+#PLEASE ALSO UPDATE '__init__.py bl_info' !!!
+
+id = "geo_scatter"
+name = "Geo-Scatter®"
+
+version = "5.5.2"
+tagline = "Geo-Scatter 5.5.2 for Blender 4.2+ (Individual License)"
+blender_version_min = "4.2.0"
+# blender_version_max = "X.X.X"
+
+maintainer = "bd3d, carbon2"
+type = "add-on"
+permissions = ["files", "network"]
+website = "http://www.geoscatter.com"
+tags = ["3D View", "Geometry Nodes", "Object"]
+license = ["Code under GPL","Nodes under EULA","(www.geoscatter.com/legal for more infos)",]
+copyright = [ "BD3D DIGITAL DESIGN, SLU",]

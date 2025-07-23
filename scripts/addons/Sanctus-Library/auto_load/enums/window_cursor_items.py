@@ -1,0 +1,28 @@
+from . import _base
+
+class BWindowCursor(_base.BStaticEnum):
+
+	DEFAULT = dict(n='Default', d='Default')
+	NONE = dict(n='None', d='None')
+	WAIT = dict(n='Wait', d='Wait')
+	CROSSHAIR = dict(n='Crosshair', d='Crosshair')
+	MOVE_X = dict(n='Move-X', d='Move-X')
+	MOVE_Y = dict(n='Move-Y', d='Move-Y')
+	KNIFE = dict(n='Knife', d='Knife')
+	TEXT = dict(n='Text', d='Text')
+	PAINT_BRUSH = dict(n='Paint Brush', d='Paint Brush')
+	PAINT_CROSS = dict(n='Paint Cross', d='Paint Cross')
+	DOT = dict(n='Dot Cursor', d='Dot Cursor')
+	ERASER = dict(n='Eraser', d='Eraser')
+	HAND = dict(n='Hand', d='Hand')
+	SCROLL_X = dict(n='Scroll-X', d='Scroll-X')
+	SCROLL_Y = dict(n='Scroll-Y', d='Scroll-Y')
+	SCROLL_XY = dict(n='Scroll-XY', d='Scroll-XY')
+	EYEDROPPER = dict(n='Eyedropper', d='Eyedropper')
+	PICK_AREA = dict(n='Pick Area', d='Pick Area')
+	STOP = dict(n='Stop', d='Stop')
+	COPY = dict(n='Copy', d='Copy')
+	CROSS = dict(n='Cross', d='Cross')
+	MUTE = dict(n='Mute', d='Mute')
+	ZOOM_IN = dict(n='Zoom In', d='Zoom In')
+	ZOOM_OUT = dict(n='Zoom Out', d='Zoom Out')

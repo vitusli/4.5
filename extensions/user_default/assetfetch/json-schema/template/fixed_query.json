@@ -1,0 +1,35 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "template: Fixed Query",
+	"$id": "af.template.fixed_query",
+	"description": "This template represents a fixed query.",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"uri": {
+			"type": "string",
+			"format": "uri"
+		},
+		"method": {
+			"type": "string",
+			"enum": [
+				"get",
+				"post"
+			]
+		},
+		"payload": {
+			"type": [
+				"object",
+				"null"
+			],
+			"additionalProperties": {
+				"type": "string"
+			}
+		}
+	},
+	"required": [
+		"uri",
+		"method",
+		"payload"
+	]
+}

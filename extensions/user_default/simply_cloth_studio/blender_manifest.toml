@@ -1,0 +1,11 @@
+schema_version = "1.0.0"
+id = "simply_cloth_studio"
+name ="Simply Cloth Studio"
+version = "1.4.3"
+tagline = "Cloth Creation Helper Addon for beginner and professionals"
+maintainer = "by Vjaceslav Tissen vjaceslavt@gmail.com"
+type = "add-on"
+tags = ["3D View", "Add Mesh", "Bake", "Geometry Nodes", "Modeling", "Mesh", "Object", "Pipeline", "Physics", "Rigging", "Sculpt", "User Interface"]
+blender_version_min = "4.2.0"
+license = ["GPL-3.0-or-later"]
+website = "https://blendermarket.com/creators/vjaceslavt?ref=159"

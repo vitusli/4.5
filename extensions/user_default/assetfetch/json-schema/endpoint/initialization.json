@@ -1,0 +1,61 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Endpoint: initialization",
+	"$id": "af.endpoint.initialization",
+	"description": "This is the initialization endpoint which the client first connects with.",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"meta": {
+			"$ref": "../template/meta.json",
+			"properties": {
+				"meta": {
+					"properties": {
+						"kind": {
+							"const": "initialization"
+						}
+					}
+				}
+			}
+		},
+		"id": {
+			"type": "string",
+			"pattern": "[a-z0-9-\\.]"
+		},
+		"data": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"text": {
+					"$ref": "../datablock/text.json"
+				},
+				"asset_list_query": {
+					"$ref": "../datablock/asset_list_query.json"
+				},
+				"provider_configuration": {
+					"$ref": "../datablock/provider_configuration.json"
+				},
+				"web_references": {
+					"$ref": "../datablock/web_references.json"
+				},
+				"branding": {
+					"$ref": "../datablock/branding.json"
+				},
+				"license": {
+					"$ref": "../datablock/license.json"
+				},
+				"authors": {
+					"$ref": "../datablock/authors.json"
+				}
+			},
+			"required": [
+				"asset_list_query"
+			]
+		}
+	},
+	"required": [
+		"meta",
+		"data",
+		"id"
+	]
+}

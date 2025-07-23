@@ -1,0 +1,232 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Endpoint: implementation_list",
+	"$id": "af.endpoint.implementation_list",
+	"description": "This endpoint gets the list of possible implementations for a specific asset.",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"meta": {
+			"$ref": "../template/meta.json",
+			"properties": {
+				"meta": {
+					"properties": {
+						"kind": {
+							"const": "implementation_list"
+						}
+					}
+				}
+			}
+		},
+		"data": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"unlock_queries": {
+					"$ref": "../datablock/unlock_queries.json"
+				}
+			}
+		},
+		"implementations": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"id": {
+						"type": "string",
+						"pattern": "[a-zA-Z0-9\\._]+"
+					},
+					"data": {
+						"type": "object",
+						"text": {
+							"$ref": "../datablock/text.json"
+						}
+					},
+					"components": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"id": {
+									"type": "string",
+									"pattern": "[a-zA-Z0-9\\._]+"
+								},
+								"data": {
+									"type": "object",
+									"additionalProperties": false,
+									"properties": {
+										"fetch.from_archive": {
+											"$ref": "../datablock/fetch.from_archive.json"
+										},
+										"fetch.download": {
+											"$ref": "../datablock/fetch.download.json"
+										},
+										"handle.loose_material_map": {
+											"$ref": "../datablock/handle.loose_material_map.json"
+										},
+										"handle.loose_environment_map": {
+											"$ref": "../datablock/handle.loose_environment_map.json"
+										},
+										"handle.native": {
+											"$ref": "../datablock/handle.native.json"
+										},
+										"handle.archive": {
+											"$ref": "../datablock/handle.archive.json"
+										},
+										"format": {
+											"$ref": "../datablock/format.json"
+										},
+										"format.obj": {
+											"$ref": "../datablock/format.obj.json"
+										},
+										"format.blend": {
+											"$ref": "../datablock/format.blend.json"
+										},
+										"link.loose_material": {
+											"$ref": "../datablock/link.loose_material.json"
+										},
+										"link.mtlx_material": {
+											"$ref": "../datablock/link.mtlx_material.json"
+										},
+										"text": {
+											"$ref": "../datablock/text.json"
+										},
+										"store": {
+											"$ref": "../datablock/store.json"
+										}
+									},
+									"allOf": [
+										{
+											"required": [
+												"store"
+											]
+										},
+										{
+											"oneOf": [
+												{
+													"required": [
+														"fetch.from_archive"
+													]
+												},
+												{
+													"required": [
+														"fetch.download"
+													]
+												}
+											]
+										},
+										{
+											"oneOf": [
+												{
+													"required": [
+														"format"
+													]
+												},
+												{
+													"required": [
+														"format.obj"
+													]
+												},
+												{
+													"required": [
+														"format.blend"
+													]
+												}
+											]
+										},
+										{
+											"if": {
+												"anyOf": [
+													{
+														"required": [
+															"link.loose_material"
+														]
+													},
+													{
+														"required": [
+															"link.mtlx_material"
+														]
+													}
+												]
+											},
+											"then": {
+												"oneOf": [
+													{
+														"required": [
+															"link.loose_material"
+														]
+													},
+													{
+														"required": [
+															"link.mtlx_material"
+														]
+													}
+												]
+											}
+										},
+										{
+											"if": {
+												"anyOf": [
+													{
+														"required": [
+															"handle.native"
+														]
+													},
+													{
+														"required": [
+															"handle.archive"
+														]
+													},
+													{
+														"required": [
+															"handle.loose_environment_map"
+														]
+													},
+													{
+														"required": [
+															"handle.loose_material_map"
+														]
+													}
+												]
+											},
+											"then": {
+												"oneOf": [
+													{
+														"required": [
+															"handle.native"
+														]
+													},
+													{
+														"required": [
+															"handle.archive"
+														]
+													},
+													{
+														"required": [
+															"handle.loose_environment_map"
+														]
+													},
+													{
+														"required": [
+															"handle.loose_material_map"
+														]
+													}
+												]
+											}
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"required": [
+		"meta",
+		"data",
+		"implementations"
+	]
+}

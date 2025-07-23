@@ -1,0 +1,32 @@
+{
+    "3D View Generic": {
+        "machin3.call_machin3tools_pie": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "Z",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "idname": "shading_pie"
+                }
+            }
+        ],
+        "machin3.material_picker": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "RIGHTMOUSE",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "is_keymap": 1
+                }
+            }
+        ]
+    }
+}

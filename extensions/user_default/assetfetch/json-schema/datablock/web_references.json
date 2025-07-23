@@ -1,0 +1,30 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Datablock: web_references",
+	"$id": "af.datablock.web_references",
+	"description": "References to external websites for documentation or support.",
+	"type": "array",
+	"additionalItems": false,
+	"items": {
+		"properties": {
+			"title": {
+				"type": [
+					"string",
+					"null"
+				]
+			},
+			"uri": {
+				"type": "string",
+				"format": "uri"
+			},
+			"icon_uri": {
+				"type": [
+					"string",
+					"null"
+				],
+				"format": "uri"
+			}
+		}
+	},
+	"minItems": 1
+}

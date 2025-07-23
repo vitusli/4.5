@@ -1,0 +1,26 @@
+from . import _base
+
+class BColorSets(_base.BStaticEnum):
+
+	DEFAULT = dict(n='Default Colors', d='Default Colors')
+	THEME01 = dict(n='01 - Theme Color Set', d='01 - Theme Color Set')
+	THEME02 = dict(n='02 - Theme Color Set', d='02 - Theme Color Set')
+	THEME03 = dict(n='03 - Theme Color Set', d='03 - Theme Color Set')
+	THEME04 = dict(n='04 - Theme Color Set', d='04 - Theme Color Set')
+	THEME05 = dict(n='05 - Theme Color Set', d='05 - Theme Color Set')
+	THEME06 = dict(n='06 - Theme Color Set', d='06 - Theme Color Set')
+	THEME07 = dict(n='07 - Theme Color Set', d='07 - Theme Color Set')
+	THEME08 = dict(n='08 - Theme Color Set', d='08 - Theme Color Set')
+	THEME09 = dict(n='09 - Theme Color Set', d='09 - Theme Color Set')
+	THEME10 = dict(n='10 - Theme Color Set', d='10 - Theme Color Set')
+	THEME11 = dict(n='11 - Theme Color Set', d='11 - Theme Color Set')
+	THEME12 = dict(n='12 - Theme Color Set', d='12 - Theme Color Set')
+	THEME13 = dict(n='13 - Theme Color Set', d='13 - Theme Color Set')
+	THEME14 = dict(n='14 - Theme Color Set', d='14 - Theme Color Set')
+	THEME15 = dict(n='15 - Theme Color Set', d='15 - Theme Color Set')
+	THEME16 = dict(n='16 - Theme Color Set', d='16 - Theme Color Set')
+	THEME17 = dict(n='17 - Theme Color Set', d='17 - Theme Color Set')
+	THEME18 = dict(n='18 - Theme Color Set', d='18 - Theme Color Set')
+	THEME19 = dict(n='19 - Theme Color Set', d='19 - Theme Color Set')
+	THEME20 = dict(n='20 - Theme Color Set', d='20 - Theme Color Set')
+	CUSTOM = dict(n='Custom Color Set', d='Custom Color Set')

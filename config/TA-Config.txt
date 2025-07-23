@@ -1,0 +1,7 @@
+expand_all_selected=>bool===True
+expand_bones=>bool===False
+ex=>bool===False
+show_actual_object_for_parented_objects=>bool===False
+default_state=>bool===True
+collapse_fix=>bool===False
+max_objects_to_expand=>int===10

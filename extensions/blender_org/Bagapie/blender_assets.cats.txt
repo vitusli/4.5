@@ -1,0 +1,18 @@
+# This is an Asset Catalog Definition file for Blender.
+#
+# Empty lines and lines starting with `#` will be ignored.
+# The first non-ignored line should be the version indicator.
+# Other lines are of the format "UUID:catalog/path/for/assets:simple catalog name"
+
+VERSION 1
+
+9bec15a7-4456-4a4d-9f37-46aaf305d1e4:Baga:Baga
+33ddf0ce-77ed-4757-af1f-13940c871fea:Baga/Beam:Baga-Beam
+a88617a2-cf46-44bb-9c3d-c8855f826fec:Baga/Extra:Baga-Extra
+f5e503dc-722a-4e68-8653-a0e5e39abcb6:Baga/Fence:Baga-Fence
+7321a80b-c3fd-479e-9b78-3f90ca5b28a8:Baga/Handrail:Baga-Handrail
+eece8cff-575d-418b-930e-9ca6c24efaab:Baga/Material:Baga-Material
+d8db32de-d6da-4808-b57b-da945706e2d9:Baga/Roof:Baga-Roof
+2324a606-d261-4852-a4b6-1ab085c98968:Baga/Siding:Baga-Siding
+5762574b-61ea-45e0-bcdd-c896020b4841:Baga/Stairs:Baga-Stairs
+69868465-38ff-4612-bab1-03a86735d628:Baga/Wall:Baga-Wall

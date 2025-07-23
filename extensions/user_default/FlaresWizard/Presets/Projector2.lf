@@ -1,0 +1,225 @@
+{
+     "ui_name": "Projector2",
+     "intensity": 1.0,
+     "scale": 1.0,
+     "color": [
+          0.0250356774777174,
+          0.15680235624313354,
+          1.0,
+          1.0
+     ],
+     "elements": [
+          {
+               "use_global_color": 0.949999988079071,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 5.0,
+               "ui_name": "Glow core",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 0.75,
+               "scale_y": 0.75,
+               "light_falloff": 3.0,
+               "interpolation": "0",
+               "hide": false,
+               "type": "GLOW",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.9800000190734863,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 2.0,
+               "ui_name": "Glow large",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 0.75,
+               "scale_y": 0.75,
+               "light_falloff": 1.75,
+               "interpolation": "0",
+               "hide": false,
+               "type": "GLOW",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.949999988079071,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 3.0,
+               "shimmer_width": 1.0,
+               "shimmer_speed": 0.0,
+               "ui_name": "Shimmer",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": -1.5707963705062866,
+               "track_target": false,
+               "scale_x": 4.0,
+               "type": "SHIMMER",
+               "scale_y": 4.0,
+               "interpolation": "3",
+               "hide": false,
+               "circular_completion": 0.9200000166893005,
+               "completion_feather": 0.75,
+               "light_falloff": 1.0,
+               "interpolation2": "0",
+               "shimmer_complexity": 110,
+               "shimmer_length": 0.8999999761581421,
+               "shimmer_length_seed": 0,
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 1.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 2.0,
+               "shimmer_width": 1.0,
+               "shimmer_speed": 0.0,
+               "ui_name": "Shimmer (Copy)",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": -1.5707963705062866,
+               "track_target": false,
+               "scale_x": 5.0,
+               "type": "SHIMMER",
+               "scale_y": 5.0,
+               "interpolation": "3",
+               "hide": false,
+               "circular_completion": 0.9115384817123413,
+               "completion_feather": 0.5,
+               "light_falloff": 1.0,
+               "interpolation2": "0",
+               "shimmer_complexity": 116,
+               "shimmer_length": 0.0,
+               "shimmer_length_seed": 0,
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          }
+     ]
+}

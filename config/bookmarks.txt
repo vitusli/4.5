@@ -1,0 +1,12 @@
+[Bookmarks]
+[Recent]
+/Volumes/T7 Shield/Creative/3D/Blender/02 Addons/Blender 4.x/
+/Users/vituspacholleck/Library/CloudStorage/OneDrive-WandelbotsGmbH/nvidia_omniverse/projects/demovideoconcept/assets/_cad/blender/
+/Users/vituspacholleck/Downloads/
+/Users/vituspacholleck/codespace/blender/
+/Volumes/T7 Shield/Creative/3D/Blender/03 Projekte/VTools/
+/Volumes/T7 Shield/Creative/3D/Blender/01 Assets/Machine Assets/DecalMachine/Decals/Aircraft/
+/Volumes/T7 Shield/Creative/3D/Blender/01 Assets/Machine Assets/DecalMachine/Decals/
+/Volumes/T7 Shield/Creative/3D/Blender/01 Assets/Machine Assets/DecalMachine/
+/Users/vituspacholleck/.blender/light_assets/shader nodes/noise/
+/Users/vituspacholleck/Downloads/Procedural Noise Library PRO 2.3.7(new)/

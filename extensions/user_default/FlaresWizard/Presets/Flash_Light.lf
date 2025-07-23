@@ -1,0 +1,642 @@
+{
+     "ui_name": "Flash Light",
+     "intensity": 1.0,
+     "scale": 1.0,
+     "color": [
+          0.3195730149745941,
+          0.6074545979499817,
+          1.0,
+          1.0
+     ],
+     "elements": [
+          {
+               "use_global_color": 0.8999999761581421,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 10.0,
+               "ui_name": "Glow core",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 1.0,
+               "scale_y": 1.0,
+               "light_falloff": 3.0,
+               "interpolation": "0",
+               "hide": false,
+               "type": "GLOW",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.949999988079071,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 5.0,
+               "ui_name": "Glow large",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 1.0,
+               "scale_y": 1.0,
+               "light_falloff": 2.0,
+               "interpolation": "0",
+               "hide": false,
+               "type": "GLOW",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    0.5751091837882996,
+                    0.3226069509983063,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 10.0,
+               "ui_name": "Glow Pink",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 1.0,
+               "scale_y": 1.0,
+               "light_falloff": 2.0,
+               "interpolation": "0",
+               "hide": false,
+               "type": "GLOW",
+               "proximity_trigger": true,
+               "proximity_intensity": 0.0,
+               "proximity_color_ramp": {
+                    "interpolation": "EASE",
+                    "elements": [
+                         [
+                              0.24864935874938965,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.5025640726089478,
+                              [
+                                   0.6767170429229736,
+                                   0.6767170429229736,
+                                   0.6767170429229736,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.7783216238021851,
+                              [
+                                   0.6767169833183289,
+                                   0.6767169833183289,
+                                   0.6767169833183289,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.9819004535675049,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.0,
+               "intensity": 0.0,
+               "position": 0.7400000095367432,
+               "scale_x": 0.75,
+               "scale_y": 0.75,
+               "ui_name": "Ghosts Large",
+               "image": "Element_3.png",
+               "hide": false,
+               "random_rot": 0.0,
+               "random_rot_seed": 0,
+               "random_scale": 0.6967213153839111,
+               "random_scale_seed": 6,
+               "ghosts_count": 5,
+               "ghosts_distance": 0.2849999666213989,
+               "ghosts_random_distance": 0.0,
+               "ghosts_random_x": 0.0,
+               "ghosts_random_y": 0.0,
+               "ghosts_random_loc_seed": 0,
+               "ghosts_random_col_seed": 8,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "type": "GHOSTS",
+               "proximity_trigger": true,
+               "proximity_intensity": 0.029999999329447746,
+               "proximity_color_ramp": {
+                    "interpolation": "EASE",
+                    "elements": [
+                         [
+                              0.12121210992336273,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.3606061041355133,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               },
+               "ghost_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0070384470745921135,
+                                   0.22042316198349,
+                                   0.9770635366439819,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.5,
+                              [
+                                   0.00322003779001534,
+                                   0.6102117300033569,
+                                   0.025292368605732918,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   0.1970617026090622,
+                                   1.0,
+                                   0.02478579618036747,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.0,
+               "intensity": 0.0,
+               "position": 1.031000018119812,
+               "scale_x": 0.15399999916553497,
+               "scale_y": 0.15399999916553497,
+               "ui_name": "Ghosts Small",
+               "image": "Element_7.png",
+               "hide": false,
+               "random_rot": 0.0,
+               "random_rot_seed": 0,
+               "random_scale": 0.8169398903846741,
+               "random_scale_seed": 6,
+               "ghosts_count": 6,
+               "ghosts_distance": 0.11700000613927841,
+               "ghosts_random_distance": 0.1469999998807907,
+               "ghosts_random_x": 0.0,
+               "ghosts_random_y": 0.0,
+               "ghosts_random_loc_seed": 0,
+               "ghosts_random_col_seed": 21,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "type": "GHOSTS",
+               "proximity_trigger": true,
+               "proximity_intensity": 0.25,
+               "proximity_color_ramp": {
+                    "interpolation": "EASE",
+                    "elements": [
+                         [
+                              0.09999997913837433,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.3515152931213379,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               },
+               "ghost_color_ramp": {
+                    "interpolation": "EASE",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.9770635366439819,
+                                   0.3205114006996155,
+                                   0.1266861855983734,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.5,
+                              [
+                                   0.0,
+                                   0.6102117300033569,
+                                   0.0474616140127182,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   0.0021583670750260353,
+                                   0.17836908996105194,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    0.312135249376297,
+                    0.03560645133256912,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 0.02500000037252903,
+               "ui_name": "Ring",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.7393215298652649,
+               "track_target": false,
+               "scale_x": 0.2930000126361847,
+               "scale_y": 0.2930000126361847,
+               "interpolation": "0",
+               "hide": false,
+               "circular_completion": 0.0,
+               "completion_feather": 0.0,
+               "ring_ray_count": 4,
+               "ring_ray_length": 0.75,
+               "ring_random_length": 0.0,
+               "ring_length_seed": 0,
+               "ring_ray_width": 1.0,
+               "ring_random_width": 0.13387978076934814,
+               "ring_width_seed": 0,
+               "use_spectrum": 0.33000001311302185,
+               "spectrum_offset": 5.099999904632568,
+               "spectrum_interpolation": "0",
+               "distortion": 0.0,
+               "noise_scale": 1.0,
+               "type": "RING",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 1.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 0.07500000298023224,
+               "position": 0.25,
+               "scale_x": 1.0,
+               "ui_name": "Hoop",
+               "scale_y": 1.0,
+               "interpolation": "3",
+               "hide": false,
+               "circular_completion": 0.8251366019248962,
+               "completion_feather": 1.0,
+               "ring_ray_count": 0,
+               "ring_ray_length": 0.10000000149011612,
+               "ring_random_length": 0.0,
+               "ring_length_seed": 0,
+               "ring_ray_width": 1.0,
+               "ring_random_width": 0.5,
+               "ring_width_seed": 0,
+               "use_spectrum": 0.8999999761581421,
+               "spectrum_offset": 1.0,
+               "spectrum_interpolation": "2",
+               "distortion": 0.0,
+               "noise_scale": 1.0,
+               "type": "HOOP",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 1.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 0.25,
+               "position": -2.1510000228881836,
+               "scale_x": 1.0,
+               "ui_name": "Hoop2",
+               "scale_y": 1.0,
+               "interpolation": "3",
+               "hide": false,
+               "circular_completion": 0.9453551769256592,
+               "completion_feather": 1.0,
+               "ring_ray_count": 0,
+               "ring_ray_length": 0.2500000298023224,
+               "ring_random_length": 0.0,
+               "ring_length_seed": 0,
+               "ring_ray_width": 1.0,
+               "ring_random_width": 0.5,
+               "ring_width_seed": 0,
+               "use_spectrum": 1.0,
+               "spectrum_offset": 1.0,
+               "spectrum_interpolation": "2",
+               "distortion": 0.0,
+               "noise_scale": 1.0,
+               "type": "HOOP",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 1.0,
+               "intensity": 5.0,
+               "position": 0.0,
+               "scale_x": 2.200000047683716,
+               "scale_y": 0.15000000596046448,
+               "ui_name": "Streaks",
+               "light_falloff": 2.799999952316284,
+               "hide": false,
+               "random_rot": 0.05000000074505806,
+               "random_rot_seed": 8,
+               "random_scale": 0.6000000238418579,
+               "random_scale_seed": 3,
+               "interpolation": "0",
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "streaks_count": 8,
+               "rotation": 0.0,
+               "track_target": false,
+               "type": "STREAKS",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 1.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 3.0,
+               "ui_name": "Lens_dirt",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "mask_size": 0.800000011920929,
+               "mask_feather": 4.0,
+               "scale_x": 1.5499999523162842,
+               "scale_y": 0.9624999761581421,
+               "image": "Lens_Dirt_2.png",
+               "hide": false,
+               "type": "LENS_DIRT",
+               "proximity_trigger": true,
+               "proximity_intensity": 0.75,
+               "proximity_color_ramp": {
+                    "interpolation": "EASE",
+                    "elements": [
+                         [
+                              0.1288495808839798,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.3987523317337036,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.7249417901039124,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.9425339698791504,
+                              [
+                                   0.006481127347797155,
+                                   0.006481127347797155,
+                                   0.006481127347797155,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          }
+     ]
+}

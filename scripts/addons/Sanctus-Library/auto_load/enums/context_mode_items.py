@@ -1,0 +1,25 @@
+from . import _base
+
+class BContextMode(_base.BStaticEnum):
+
+	EDIT_MESH = dict(n='Mesh Edit', d='Mesh Edit')
+	EDIT_CURVE = dict(n='Curve Edit', d='Curve Edit')
+	EDIT_CURVES = dict(n='Curves Edit', d='Curves Edit')
+	EDIT_SURFACE = dict(n='Surface Edit', d='Surface Edit')
+	EDIT_TEXT = dict(n='Text Edit', d='Text Edit')
+	EDIT_ARMATURE = dict(n='Armature Edit', d='Armature Edit')
+	EDIT_METABALL = dict(n='Metaball Edit', d='Metaball Edit')
+	EDIT_LATTICE = dict(n='Lattice Edit', d='Lattice Edit')
+	POSE = dict(n='Pose', d='Pose')
+	SCULPT = dict(n='Sculpt', d='Sculpt')
+	PAINT_WEIGHT = dict(n='Weight Paint', d='Weight Paint')
+	PAINT_VERTEX = dict(n='Vertex Paint', d='Vertex Paint')
+	PAINT_TEXTURE = dict(n='Texture Paint', d='Texture Paint')
+	PARTICLE = dict(n='Particle', d='Particle')
+	OBJECT = dict(n='Object', d='Object')
+	PAINT_GPENCIL = dict(n='Grease Pencil Paint', d='Grease Pencil Paint')
+	EDIT_GPENCIL = dict(n='Grease Pencil Edit', d='Grease Pencil Edit')
+	SCULPT_GPENCIL = dict(n='Grease Pencil Sculpt', d='Grease Pencil Sculpt')
+	WEIGHT_GPENCIL = dict(n='Grease Pencil Weight Paint', d='Grease Pencil Weight Paint')
+	VERTEX_GPENCIL = dict(n='Grease Pencil Vertex Paint', d='Grease Pencil Vertex Paint')
+	SCULPT_CURVES = dict(n='Curves Sculpt', d='Curves Sculpt')

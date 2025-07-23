@@ -1,0 +1,28 @@
+
+• LICENSE OF NON SCRIPT .BLEND COMPONEMENT LOCATED IN THIS FOLDER :
+
+    All .blend files located in this 'gpl_script' folder and its subfolders are licensed under
+    the Creative Commons Attribution (CC BY) terms. These .blend files may be freely used,
+    modified, and redistributed under the following conditions:
+
+    Attribution Requirement:
+    • Proper attribution must be given to "BD3D DIGITAL DESIGN, SLU" in any use or redistribution 
+      of these files or their derivatives.
+      
+    By using these .blend files, you agree to comply with the terms of CC BY license.
+
+• TRADEMARK INFORMATION :
+
+    Geo-Scatter® name & logo is a trademark or registered trademark of “BD3D DIGITAL DESIGN, SLU” 
+    in the U.S. and/or European Union and/or other countries. We reserve all rights to this trademark. 
+    For further details, please review our trademark and logo policies at “www.geoscatter.com/legal”. The 
+    use of our brand name, logo, or marketing materials to distribute content through any non-official
+    channels not listed on “www.geoscatter.com/download” is strictly prohibited. Such unauthorized use 
+    falsely implies endorsement or affiliation with third-party activities, which has never been granted. We 
+    reserve all rights to protect our brand integrity & prevent any associations with unapproved third parties.
+    You are not permitted to use our brand to promote your unapproved activities in a way that suggests official
+    endorsement or affiliation. As a reminder, the GPL license explicitly excludes brand names from the freedom,
+    our trademark rights remain distinct and enforceable under trademark laws.
+
+
+© 2024 “BD3D DIGITAL DESIGN, SLU”. All rights reserved.

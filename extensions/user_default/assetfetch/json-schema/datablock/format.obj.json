@@ -1,0 +1,32 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Datablock: format.obj",
+	"$id": "af.datablock.format.obj",
+	"type": "object",
+	"properties": {
+		"up_axis": {
+			"type": "string",
+			"enum": [
+				"+x",
+				"-x",
+				"+y",
+				"-y",
+				"+z",
+				"-z"
+			]
+		},
+		"front_axis": {
+			"type": "string",
+			"enum": [
+				"+x",
+				"-x",
+				"+y",
+				"-y",
+				"+z",
+				"-z"
+			]
+		}
+	},
+	"additionalProperties": false,
+	"required": []
+}

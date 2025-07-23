@@ -1,0 +1,39 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "AF Datablock: branding",
+	"$id": "af.datablock.branding",
+	"description": "Contains brand information about the provider, MAY be used by the client to customize the user interface.",
+	"type": "object",
+	"properties": {
+		"color_accent": {
+			"type": [
+				"string",
+				"null"
+			],
+			"pattern": "[0-9a-f]{6}"
+		},
+		"logo_square_uri": {
+			"type": [
+				"string",
+				"null"
+			],
+			"format": "uri"
+		},
+		"logo_wide_uri": {
+			"type": [
+				"string",
+				"null"
+			],
+			"format": "uri"
+		},
+		"banner_uri": {
+			"type": [
+				"string",
+				"null"
+			],
+			"format": "uri"
+		}
+	},
+	"required": [],
+	"additionalProperties": false
+}

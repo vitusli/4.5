@@ -1,0 +1,14 @@
+{
+    "project_name": "project",
+    "file_name": "",
+    "project_location": "/Users/vituspacholleck/Documents/Blender\\",
+    "folder_names": [
+        "textures",
+        "renders",
+        "input"
+    ],
+    "use_file_name": true,
+    "save": true,
+    "relative_remap": true,
+    "compress": false
+}

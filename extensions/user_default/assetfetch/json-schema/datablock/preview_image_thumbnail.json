@@ -1,0 +1,27 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Datablock: preview_image_thumbnail",
+	"$id": "af.datablock.preview_image_thumbnail",
+	"description": "Contains information about a thumbnail image for an asset.",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"alt": {
+			"type": "string"
+		},
+		"uris": {
+			"properties": {},
+			"patternProperties": {
+				"[0-9]+": {
+					"type": "string",
+					"format": "uri"
+				}
+			},
+			"additionalProperties": false,
+			"minProperties": 1
+		}
+	},
+	"required": [
+		"uris"
+	]
+}

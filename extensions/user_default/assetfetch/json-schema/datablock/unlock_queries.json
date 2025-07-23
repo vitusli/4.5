@@ -1,0 +1,55 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Datablock: unlock_queries",
+	"$id": "af.datablock.unlock_queries",
+	"description": "Contains the query or queries required to unlock all or some of the components in this implementation list.",
+	"type": "array",
+	"items": {
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+			"id": {
+				"type": "string"
+			},
+			"unlocked": {
+				"type": "boolean"
+			},
+			"price": {
+				"type": "number"
+			},
+			"query": {
+				"$ref": "../template/fixed_query.json"
+			},
+			"child_query_ids": {
+				"type": "array",
+				"items": {
+					"type": "string"
+				}
+			},
+			"query_fallback_uri": {
+				"type": [
+					"string",
+					"null"
+				],
+				"format": "uri"
+			}
+		},
+		"required": [
+			"id",
+			"unlocked"
+		],
+		"if": {
+			"properties": {
+				"unlocked": {
+					"const": false
+				}
+			}
+		},
+		"then": {
+			"required": [
+				"price",
+				"query"
+			]
+		}
+	}
+}

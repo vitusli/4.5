@@ -1,0 +1,33 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "AF Datablock: authors",
+	"$id": "af.datablock.authors",
+	"description": "Is used communicate the author(s) of a particular asset.",
+	"type": "array",
+	"additionalProperties":false,
+	"items": {
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+			"name": {
+				"type": "string"
+			},
+			"uri": {
+				"type": [
+					"string",
+					"null"
+				],
+				"format": "uri"
+			},
+			"role": {
+				"type": [
+					"string",
+					"null"
+				]
+			}
+		},
+		"required": [
+			"name"
+		]
+	}
+}

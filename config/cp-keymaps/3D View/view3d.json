@@ -1,0 +1,18 @@
+{
+    "3D View": {
+        "view3d.view_all": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": true,
+                "oskey_ui": false,
+                "type": "C",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "center": 1
+                }
+            }
+        ]
+    }
+}

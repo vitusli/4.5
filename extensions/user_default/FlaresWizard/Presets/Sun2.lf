@@ -1,0 +1,690 @@
+{
+     "ui_name": "Sun2",
+     "intensity": 1.0,
+     "scale": 1.0,
+     "color": [
+          0.5840786099433899,
+          0.09305897355079651,
+          0.01032982487231493,
+          1.0
+     ],
+     "elements": [
+          {
+               "use_global_color": 0.949999988079071,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 10.0,
+               "ui_name": "Glow Core",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 1.0,
+               "scale_y": 1.0,
+               "light_falloff": 1.25,
+               "interpolation": "3",
+               "hide": false,
+               "type": "GLOW",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.949999988079071,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 8.0,
+               "ui_name": "Glow Large",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 1.0,
+               "scale_y": 1.0,
+               "light_falloff": 1.75,
+               "interpolation": "0",
+               "hide": false,
+               "type": "GLOW",
+               "proximity_trigger": true,
+               "proximity_intensity": 4.0,
+               "proximity_color_ramp": {
+                    "interpolation": "EASE",
+                    "elements": [
+                         [
+                              0.0714285671710968,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.33928558230400085,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.6821426749229431,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.9535713791847229,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 1.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 50.0,
+               "shimmer_width": 4.0,
+               "shimmer_speed": 0.0,
+               "ui_name": "Shimmer",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 0.5,
+               "type": "SHIMMER",
+               "scale_y": 0.5,
+               "interpolation": "2",
+               "hide": false,
+               "circular_completion": 0.0,
+               "completion_feather": 0.0,
+               "light_falloff": 1.0,
+               "interpolation2": "0",
+               "shimmer_complexity": 4,
+               "shimmer_length": 0.5,
+               "shimmer_length_seed": 0,
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 1.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 50.0,
+               "shimmer_width": 4.0,
+               "shimmer_speed": 0.0,
+               "ui_name": "Shimmer 2",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.10471975803375244,
+               "track_target": false,
+               "scale_x": 0.5,
+               "type": "SHIMMER",
+               "scale_y": 0.5,
+               "interpolation": "2",
+               "hide": false,
+               "circular_completion": 0.0,
+               "completion_feather": 0.0,
+               "light_falloff": 1.0,
+               "interpolation2": "0",
+               "shimmer_complexity": 4,
+               "shimmer_length": 0.0,
+               "shimmer_length_seed": 2,
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 1.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 50.0,
+               "shimmer_width": 4.0,
+               "shimmer_speed": 0.0,
+               "ui_name": "Shimmer 3",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.20943951606750488,
+               "track_target": false,
+               "scale_x": 0.5,
+               "type": "SHIMMER",
+               "scale_y": 0.5,
+               "interpolation": "2",
+               "hide": false,
+               "circular_completion": 0.0,
+               "completion_feather": 0.0,
+               "light_falloff": 1.0,
+               "interpolation2": "0",
+               "shimmer_complexity": 4,
+               "shimmer_length": 0.5,
+               "shimmer_length_seed": 4,
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.0,
+               "intensity": 0.0,
+               "position": 0.800000011920929,
+               "scale_x": 0.15000000596046448,
+               "scale_y": 0.15000000596046448,
+               "ui_name": "Ghosts",
+               "image": "Element_10.png",
+               "hide": false,
+               "random_rot": 0.0,
+               "random_rot_seed": 0,
+               "random_scale": 0.6764706373214722,
+               "random_scale_seed": 15,
+               "ghosts_count": 10,
+               "ghosts_distance": 0.1469999998807907,
+               "ghosts_random_distance": -0.008999988436698914,
+               "ghosts_random_x": 0.017999999225139618,
+               "ghosts_random_y": 0.008999999612569809,
+               "ghosts_random_loc_seed": 0,
+               "ghosts_random_col_seed": 41,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "type": "GHOSTS",
+               "proximity_trigger": true,
+               "proximity_intensity": 0.30000001192092896,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.08571428805589676,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.46071431040763855,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               },
+               "ghost_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0070384470745921135,
+                                   0.22042316198349,
+                                   0.9770635366439819,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.5,
+                              [
+                                   0.00322003779001534,
+                                   0.6102117300033569,
+                                   0.025292368605732918,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   0.1970617026090622,
+                                   1.0,
+                                   0.02478579618036747,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   0.03979700058698654,
+                                   0.19204699993133545,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.8999999761581421,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 0.10000000149011612,
+               "ui_name": "Ring Rays",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 0.6000000238418579,
+               "scale_y": 0.6000000238418579,
+               "interpolation": "2",
+               "hide": false,
+               "circular_completion": 0.0,
+               "completion_feather": 0.0,
+               "ring_ray_count": 100,
+               "ring_ray_length": 0.5,
+               "ring_random_length": 1.0,
+               "ring_length_seed": 0,
+               "ring_ray_width": 1.0,
+               "ring_random_width": 1.0,
+               "ring_width_seed": 0,
+               "use_spectrum": 0.25,
+               "spectrum_offset": 1.0,
+               "spectrum_interpolation": "0",
+               "distortion": 0.0,
+               "noise_scale": 1.0,
+               "type": "RING",
+               "proximity_trigger": true,
+               "proximity_intensity": 0.05000000074505806,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.20357145369052887,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.4928571283817291,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.25,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 0.10000000149011612,
+               "ui_name": "Ring",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 0.0,
+               "track_target": false,
+               "scale_x": 0.25,
+               "scale_y": 0.25,
+               "interpolation": "3",
+               "hide": false,
+               "circular_completion": 0.0,
+               "completion_feather": 0.0,
+               "ring_ray_count": 4,
+               "ring_ray_length": 0.406000018119812,
+               "ring_random_length": 0.013398612849414349,
+               "ring_length_seed": 5,
+               "ring_ray_width": 0.9900000095367432,
+               "ring_random_width": 0.23999999463558197,
+               "ring_width_seed": 3,
+               "use_spectrum": 1.0,
+               "spectrum_offset": 1.100000023841858,
+               "spectrum_interpolation": "2",
+               "distortion": 0.0,
+               "noise_scale": 1.0,
+               "type": "RING",
+               "proximity_trigger": true,
+               "proximity_intensity": 0.05999999865889549,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.03214285895228386,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.6321427226066589,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.0,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 0.0,
+               "position": 1.435999870300293,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "rotation": 1.5707963705062866,
+               "track_target": true,
+               "scale_x": 0.125,
+               "scale_y": 0.125,
+               "image": "Element_21.png",
+               "hide": false,
+               "type": "IMAGE",
+               "ui_name": "Image",
+               "fade_distance": -0.2999999523162842,
+               "feather": 0.6000000238418579,
+               "proximity_trigger": true,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.13214285671710968,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.5142858028411865,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.3400000035762787,
+               "color": [
+                    0.01889216899871826,
+                    0.42438602447509766,
+                    0.008503644727170467,
+                    1.0
+               ],
+               "intensity": 0.5,
+               "position": 0.8849999904632568,
+               "scale_x": 1.1100000143051147,
+               "ui_name": "Hoop",
+               "scale_y": 1.409999966621399,
+               "interpolation": "2",
+               "hide": false,
+               "circular_completion": 0.9542483687400818,
+               "completion_feather": 1.0,
+               "ring_ray_count": 0,
+               "ring_ray_length": 0.9190000295639038,
+               "ring_random_length": 0.0,
+               "ring_length_seed": 0,
+               "ring_ray_width": 1.0,
+               "ring_random_width": 0.5,
+               "ring_width_seed": 0,
+               "use_spectrum": 1.0,
+               "spectrum_offset": 1.2549999952316284,
+               "spectrum_interpolation": "3",
+               "distortion": 0.0,
+               "noise_scale": 1.0,
+               "type": "HOOP",
+               "proximity_trigger": false,
+               "proximity_intensity": 1.0,
+               "proximity_color_ramp": {
+                    "interpolation": "LINEAR",
+                    "elements": [
+                         [
+                              0.0,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              1.0,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          },
+          {
+               "use_global_color": 0.949999988079071,
+               "location_x": 0.0,
+               "location_y": 0.0,
+               "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+               ],
+               "intensity": 3.0,
+               "ui_name": "Lens_dirt",
+               "position": 0.0,
+               "lock_x": 0.0,
+               "lock_y": 0.0,
+               "mask_size": 1.0,
+               "mask_feather": 1.5,
+               "scale_x": 1.0099999904632568,
+               "scale_y": 0.5724999904632568,
+               "image": "Lens_Dirt_10.jpg",
+               "hide": false,
+               "type": "LENS_DIRT",
+               "proximity_trigger": true,
+               "proximity_intensity": 0.5,
+               "proximity_color_ramp": {
+                    "interpolation": "EASE",
+                    "elements": [
+                         [
+                              0.0714285746216774,
+                              [
+                                   0.0,
+                                   0.0,
+                                   0.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.34285709261894226,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.7767859697341919,
+                              [
+                                   1.0,
+                                   1.0,
+                                   1.0,
+                                   1.0
+                              ]
+                         ],
+                         [
+                              0.9821429252624512,
+                              [
+                                   0.3499999940395355,
+                                   0.3499999940395355,
+                                   0.3499999940395355,
+                                   1.0
+                              ]
+                         ]
+                    ]
+               }
+          }
+     ]
+}

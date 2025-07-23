@@ -1,0 +1,37 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Endpoint: connection_status",
+	"$id": "af.endpoint.connection_status",
+	"description": "This endpoint can be used to gather data about the current connection status.",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"meta": {
+			"$ref": "../template/meta.json",
+			"properties": {
+				"meta": {
+					"properties": {
+						"kind": {
+							"const": "connection_status"
+						}
+					}
+				}
+			}
+		},
+		"data": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"unlock_balance": {
+					"$ref": "../datablock/unlock_balance.json"
+				},
+				"user": {
+					"$ref": "../datablock/user.json"
+				},
+				"provider_reconfiguration": {
+					"$ref": "../datablock/provider_reconfiguration.json"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+    "Object Mode": {
+        "material.new": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "M",
+                "value": "PRESS",
+                "repeat": true,
+                "properties": {}
+            }
+        ]
+    }
+}

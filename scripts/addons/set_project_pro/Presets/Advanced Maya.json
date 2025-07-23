@@ -1,0 +1,18 @@
+{
+    "project_name": "My Project",
+    "folder_names": [
+        "scene",
+        "assets",
+        "images",
+        "source images",
+        "hdri",
+        "clip",
+        "sound",
+        "scripts",
+        "movies"
+    ],
+    "use_file_name": true,
+    "save": true,
+    "relative_remap": true,
+    "compress": false
+}

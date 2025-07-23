@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "all_material_list"
+name = "All Material List"
+version = "2.7.7"
+tagline = "列出所有材质和更多数据"
+maintainer = "xz-blender repack"
+type = "add-on"
+tags = [ "Material",]
+blender_version_min = "4.2.0"
+license = [ "SPDX:GPL-2.0-or-later",]
+website = "https://blendermarket.com/products/all-material-list"
+copyright = [ "blender",]
+wheels = [ "wheels/requests-2.32.3-py3-none-any.whl",]

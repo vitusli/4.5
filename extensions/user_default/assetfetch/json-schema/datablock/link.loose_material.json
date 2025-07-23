@@ -1,0 +1,17 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Datablock: link.loose_material",
+	"$id": "af.datablock.link.loose_material",
+	"description": "Indicates that this component uses one or multiple materials defined using `handle.loose_material_map` datablocks.",
+	"additionalItems": false,
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"material_name": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"material_name"
+	]
+}

@@ -1,0 +1,9 @@
+REGISTER_MANAGER_NAME: str = 'AUTOLOAD_REGISTER_MANAGER'
+DEPENDENCY_ATTR = 'al_dependencies'
+
+# addon configurable
+ADDON_PREFIX = 'ADDON'
+ADDON_PACKAGE: str = None
+ADDON_VERSION: str = None
+DEBUG = False
+RUN_IN_BACKGROUND = False

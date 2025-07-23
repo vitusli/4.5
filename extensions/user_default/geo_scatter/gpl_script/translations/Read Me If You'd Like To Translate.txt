@@ -1,0 +1,26 @@
+
+Hello,
+First of all, thank you for doing the translation—your effort is greatly appreciated!
+Please don’t hesitate to contact us so we can include your translation in our plugin.
+
+When translating the data within the .csv files, there are a few rules to follow:
+1) The translation format must always be a ".csv" file. For each row:
+ - The first column contains the original text. (It is important that this column is not altered or changed in any way.)
+ - The second column should contain the translation.
+ - The third column provides information on where the original text is located within our plugin code.
+2) Symbols like '\n' are important, as they indicate a new line. Please do not erase them. If you want to insert a new line, use the '\n' symbol if it already exists in the original translation.
+3) Please try to respect the text length. If the text is short, it may have been designed to fit small spaces in the plugin GUI.
+4) Do not format any of the cells (no colors or text styles), as this may cause bugs. Work with plain text only.
+5) Please respect Blender's canonical terms, such as "Vertex-Group" or "UV-Map" in your language. If Blender has already translated "Vertex-Group" with a specific term, please stick to the official translation.
+6) Once finished, please do a quick overview of Geo-Scatter interface and operators, sees if the translations are well fit in the GUI and are contextually correct.
+
+Pro Tip:
+Copy the entire first column, create a temporary website on https://ctxt.io/, 
+and then use Google Translate to translate the webpage (https://translate.google.com). 
+This is a good way to avoid starting the translation from scratch.
+
+Don't hesitate to reach us on discord
+https://discord.com/invite/F7ZyjP6VKB
+
+Kind Regards,
+Dorian B, Founder & Lead Dev

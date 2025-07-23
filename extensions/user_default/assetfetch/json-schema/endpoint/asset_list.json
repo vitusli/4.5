@@ -1,0 +1,88 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Endpoint: asset_list",
+	"$id": "af.endpoint.asset_list",
+	"description": "This endpoint is used to query assets.",
+	"type": "object",
+	"properties": {
+		"meta": {
+			"$ref": "../template/meta.json",
+			"properties": {
+				"meta": {
+					"properties": {
+						"kind": {
+							"const": "asset_list"
+						}
+					}
+				}
+			}
+		},
+		"data": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"next_query": {
+					"$ref": "../datablock/next_query.json"
+				},
+				"response_statistics": {
+					"$ref": "../datablock/response_statistics.json"
+				}
+			}
+		},
+		"assets": {
+			"type": "array",
+			"maxItems": 100,
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"required": [
+					"id",
+					"data"
+				],
+				"properties": {
+					"id": {
+						"type": "string",
+						"pattern": "[a-zA-Z0-9\\._]+"
+					},
+					"data": {
+						"type": "object",
+						"properties": {
+							"implementation_list_query": {
+								"$ref": "../datablock/implementation_list_query.json"
+							},
+							"text": {
+								"$ref": "../datablock/text.json"
+							},
+							"dimensions": {
+								"$ref": "../datablock/dimensions.json"
+							},
+							"preview_image_supplemental": {
+								"$ref": "../datablock/preview_image_supplemental.json"
+							},
+							"preview_image_thumbnail": {
+								"$ref": "../datablock/preview_image_thumbnail.json"
+							},
+							"web_references": {
+								"$ref": "../datablock/web_references.json"
+							},
+							"license": {
+								"$ref": "../datablock/license.json"
+							},
+							"authors": {
+								"$ref": "../datablock/authors.json"
+							}
+						},
+						"required": [
+							"implementation_list_query"
+						]
+					}
+				}
+			}
+		}
+	},
+	"required": [
+		"meta",
+		"data",
+		"assets"
+	]
+}

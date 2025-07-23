@@ -1,0 +1,32 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "light_wrangler",
+      "name": "Light Wrangler",
+      "tagline": "Intelligent Lighting Management Suite",
+      "version": "3.1.14",
+      "type": "add-on",
+      "maintainer": "Leonid Altman <contact@leonidaltman.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.0.0",
+      "blender_version_max": "4.6.0",
+      "website": "https://blendermarket.com/products/light-wrangler/docs",
+      "permissions": [
+        "files"
+      ],
+      "tags": [
+        "Lighting",
+        "Rendering",
+        "3D View"
+      ],
+      "archive_url": "./Light-Wrangler-3.1.14.zip",
+      "archive_size": 325271361,
+      "archive_hash": "sha256:1613e954ff4cadf993f87dfdbf7782520b4ad84f4f24430429f3026e4f3a3ac5"
+    }
+  ]
+}

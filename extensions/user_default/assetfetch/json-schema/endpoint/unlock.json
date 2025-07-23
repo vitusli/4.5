@@ -1,0 +1,31 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Endpoint: unlock",
+	"$id": "af.endpoint.unlock",
+	"description": "This is an endpoint for unlocking components.",
+	"type": "object",
+	"additionalProperties":false,
+	"properties": {
+		"meta": {
+			"$ref": "../template/meta.json",
+			"properties": {
+				"meta": {
+					"properties": {
+						"kind": {
+							"const": "unlock"
+						}
+					}
+				}
+			}
+		},
+		"data": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"text": {
+					"$ref": "../datablock/text.json"
+				}
+			}
+		}
+	}
+}

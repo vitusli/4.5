@@ -1,0 +1,21 @@
+
+• SHADER FILES LICENSE AGREEMENT:
+
+    All .frag and .vert shader files located in this folder are licensed under the GPL 3.0 
+    license, with attribution required under the Creative Commons Attribution (CC BY) terms.
+
+    These shader files may be freely used, modified, and redistributed under the 
+    following conditions:
+
+    • GPL 3.0 Compliance:
+        Any distributed or derivative works created from these shader files must also be 
+        licensed under GPL 3.0.
+
+    • Attribution Requirement:
+        Proper attribution must be given to "BD3D DIGITAL DESIGN, SLU" and "Jakub Uhlik"
+        in any use or redistribution of these files or their derivatives.
+
+    By using these .frag and .vert files, you agree to comply with the terms of both the GPL 3.0 and the CC BY license.
+
+
+© 2024 “BD3D DIGITAL DESIGN, SLU”. All rights reserved.

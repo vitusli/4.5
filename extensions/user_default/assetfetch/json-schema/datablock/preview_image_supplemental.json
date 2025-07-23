@@ -1,0 +1,23 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Datablock: preview_image_supplemental",
+	"$id": "af.datablock.preview_image_supplemental",
+	"description": "Contains a list of preview images associated to an asset.",
+	"type": "array",
+	"items": {
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+			"alt": {
+				"type": "string"
+			},
+			"uri": {
+				"type": "string",
+				"format": "uri"
+			}
+		},
+		"required": [
+			"uri"
+		]
+	}
+}

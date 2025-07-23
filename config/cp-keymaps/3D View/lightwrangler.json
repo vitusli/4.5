@@ -1,0 +1,18 @@
+{
+    "3D View": {
+        "lightwrangler.add_interactive_light": [
+            {
+                "ctrl_ui": false,
+                "alt_ui": false,
+                "shift_ui": false,
+                "oskey_ui": false,
+                "type": "L",
+                "value": "PRESS",
+                "repeat": false,
+                "properties": {
+                    "light_type": 0
+                }
+            }
+        ]
+    }
+}

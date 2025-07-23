@@ -1,0 +1,742 @@
+{
+    "online_version": "7.0.4",
+    "update_message": "V7.0.4>\nBlender 4.4 support for delayed loading\nV7>\nSetup Guide: Guided setup for first-time users with auto-category creation\nRedesigned Preferences UI: Cleaner, tab-based layout for easier navigation\nSelect to Load Addons: Manually choose which addons to load instead of relying on categories\nQuick Setup: One-click auto setup to get started in under 30 seconds\nFocus Panel Favorites: Quickly access favorite tabs with the new pie menu\nMore Reliable Reordering: Fixes for renaming and order issues with certain addons\nQuick Reorder Button: Reorder tabs directly from the viewport\nFind Unassigned Addons: Easily see addons that haven\u2019t been assigned a category",
+    "download_page_url": "https://blendermarket.com/account/orders_search?orders_search%5Bq%5D=bl_ext.blender_extension.CleanPanels",
+    "update_available": true,
+    "check_for_updates": false,
+    "check_on_boot": true,
+    "last_check_time": "03:42 PM on June 26,2025",
+    "check_every_days": 7,
+    "config_corrupted": false,
+    "auto_run_magic_setup": false,
+    "show_button_to_load_uncategorized": false,
+    "show_quick_reorder": false,
+    "show_quick_focus_search_button": false,
+    "easy_mode": true,
+    "main_tabs": "Organize",
+    "remove_uninstalled_addons": true,
+    "use_filtering_in_node_editor": true,
+    "use_filtering_in_image_editor": true,
+    "hide_pie_panels": false,
+    "hide_dropdown_panels": false,
+    "use_enum_search_for_popups": false,
+    "auto_backup_addons": false,
+    "show_panel_pies": false,
+    "pop_out_style": "Pie-PopUp",
+    "show_keymaps": false,
+    "active_tab": "Filtering",
+    "active_tab_quick_settings": "Filtering",
+    "addon_loading_categories": [],
+    "panel_categories": [],
+    "dropdown_categories": [],
+    "workspace_categories": [
+        {
+            "icon": "URL",
+            "panels": "AssetFetch For Blender,iMeshh",
+            "name": "Assets",
+            "show": true
+        },
+        {
+            "icon": "OUTLINER_DATA_LIGHT",
+            "panels": "All Material List,renderset_personal,Flares Wizard,Lens Sim,Render Raw",
+            "name": "Studio",
+            "show": true
+        },
+        {
+            "icon": "TEXTURE",
+            "panels": "All Material List,Ucupaint,Fluent Materializer",
+            "name": "Material",
+            "show": true
+        },
+        {
+            "icon": "VIEW_PAN",
+            "panels": "Hard Ops 9,HyperCursor,MACHIN3tools,Plasticity,Simply Cloth Studio",
+            "name": "Modelling",
+            "show": true
+        },
+        {
+            "icon": "MOD_PARTICLES",
+            "panels": "Bagapie,Geo-Scatter\u00ae",
+            "name": "Scatter",
+            "show": true
+        }
+    ],
+    "focus_panel_categories": [
+        {
+            "icon": "COLLAPSEMENU",
+            "panels": "Mat List,Ucupaint,Fluent",
+            "name": "Material",
+            "show": false
+        },
+        {
+            "icon": "COLLAPSEMENU",
+            "panels": "MACHIN3,Plasticity,Simply Addons",
+            "name": "Modelling",
+            "show": false
+        },
+        {
+            "icon": "COLLAPSEMENU",
+            "panels": "BagaPie,Geo-Scatter",
+            "name": "Scatter",
+            "show": false
+        },
+        {
+            "icon": "COLLAPSEMENU",
+            "panels": "AssetFetch,iMeshh",
+            "name": "Assets",
+            "show": false
+        },
+        {
+            "icon": "COLLAPSEMENU",
+            "panels": "Mat List,polygoniq,Flares Wizard,Lens Sim,Render",
+            "name": "Studio",
+            "show": false
+        }
+    ],
+    "workspace_categories_image_editor": [],
+    "focus_panel_categories_image_editor": [],
+    "workspace_categories_node_editor": [],
+    "focus_panel_categories_node_editor": [],
+    "load_addons_with_filtering": false,
+    "show_addon_loading_categories": false,
+    "show_panel_categories": false,
+    "show_dropdown_categories": false,
+    "show_workspace_categories": false,
+    "show_npanel_ordering": false,
+    "show_npanel_renaming": false,
+    "show_focus_panel_categories": false,
+    "draw_side": "RIGHT",
+    "addons_to_exclude": "",
+    "addons_to_exclude_node_editor": "",
+    "addons_to_exclude_image_editor": "",
+    "experimental": false,
+    "use_sticky_popup": true,
+    "addon_info": [
+        {
+            "name": "Mat List",
+            "display_name": "",
+            "addons": "all_material_list",
+            "ordered": ""
+        },
+        {
+            "name": "AssetFetch",
+            "display_name": "",
+            "addons": "assetfetch",
+            "ordered": ""
+        },
+        {
+            "name": "BagaPie",
+            "display_name": "",
+            "addons": "Bagapie",
+            "ordered": ""
+        },
+        {
+            "name": "Flares Wizard",
+            "display_name": "",
+            "addons": "FlaresWizard",
+            "ordered": ""
+        },
+        {
+            "name": "iMeshh",
+            "display_name": "",
+            "addons": "imeshh",
+            "ordered": ""
+        },
+        {
+            "name": "MACHIN3",
+            "display_name": "",
+            "addons": "MESHmachine,HyperCursor,MACHIN3tools",
+            "ordered": ""
+        },
+        {
+            "name": "Render",
+            "display_name": "",
+            "addons": "render_raw",
+            "ordered": ""
+        },
+        {
+            "name": "Lens Sim",
+            "display_name": "",
+            "addons": "lens_sim",
+            "ordered": ""
+        },
+        {
+            "name": "Tool",
+            "display_name": "",
+            "addons": ",bl_ui",
+            "ordered": ""
+        },
+        {
+            "name": "View",
+            "display_name": "",
+            "addons": ",bl_ui",
+            "ordered": ""
+        },
+        {
+            "name": "polygoniq",
+            "display_name": "",
+            "addons": "renderset_personal",
+            "ordered": ""
+        },
+        {
+            "name": "Geo-Scatter",
+            "display_name": "",
+            "addons": "geo_scatter",
+            "ordered": ""
+        },
+        {
+            "name": "Plasticity",
+            "display_name": "",
+            "addons": "plasticity-blender-addon-main",
+            "ordered": ""
+        },
+        {
+            "name": "Simply Addons",
+            "display_name": "",
+            "addons": "simply_cloth_studio",
+            "ordered": ""
+        },
+        {
+            "name": "BlenderKit",
+            "display_name": "",
+            "addons": "blenderkit",
+            "ordered": ""
+        },
+        {
+            "name": "Poliigon",
+            "display_name": "",
+            "addons": "poliigon-addon-blender",
+            "ordered": ""
+        },
+        {
+            "name": "Fluent",
+            "display_name": "",
+            "addons": "fluent_materializer",
+            "ordered": ""
+        }
+    ],
+    "addon_info_for_renaming": [
+        {
+            "name": "assetfetch",
+            "display_name": "AssetFetch For Blender",
+            "tab_name": "AssetFetch",
+            "identifier": "bl_ext.user_default.assetfetch",
+            "space": "VIEW_3D",
+            "backup_tab_name": "AssetFetch"
+        },
+        {
+            "name": "all_material_list",
+            "display_name": "All Material List",
+            "tab_name": "Mat List",
+            "identifier": "bl_ext.blender4_com.all_material_list",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Mat List"
+        },
+        {
+            "name": "Bagapie",
+            "display_name": "Bagapie",
+            "tab_name": "BagaPie",
+            "identifier": "bl_ext.blender_org.Bagapie",
+            "space": "VIEW_3D",
+            "backup_tab_name": "BagaPie"
+        },
+        {
+            "name": "FlaresWizard",
+            "display_name": "Flares Wizard",
+            "tab_name": "Flares Wizard",
+            "identifier": "bl_ext.user_default.FlaresWizard",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Lens Flares"
+        },
+        {
+            "name": "imeshh",
+            "display_name": "iMeshh",
+            "tab_name": "iMeshh",
+            "identifier": "bl_ext.extensions_imeshh_com.imeshh",
+            "space": "VIEW_3D",
+            "backup_tab_name": "iMeshh"
+        },
+        {
+            "name": "HyperCursor",
+            "display_name": "HyperCursor",
+            "tab_name": "MACHIN3",
+            "identifier": "HyperCursor",
+            "space": "VIEW_3D",
+            "backup_tab_name": "MACHIN3"
+        },
+        {
+            "name": "MACHIN3tools",
+            "display_name": "MACHIN3tools",
+            "tab_name": "MACHIN3",
+            "identifier": "MACHIN3tools",
+            "space": "VIEW_3D",
+            "backup_tab_name": "MACHIN3"
+        },
+        {
+            "name": "render_raw",
+            "display_name": "Render Raw",
+            "tab_name": "Render",
+            "identifier": "bl_ext.user_default.render_raw",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Render"
+        },
+        {
+            "name": "lens_sim",
+            "display_name": "Lens Sim",
+            "tab_name": "Lens Sim",
+            "identifier": "bl_ext.user_default.lens_sim",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Lens Sim"
+        },
+        {
+            "name": "renderset_personal",
+            "display_name": "renderset_personal",
+            "tab_name": "polygoniq",
+            "identifier": "bl_ext.user_default.renderset_personal",
+            "space": "VIEW_3D",
+            "backup_tab_name": "polygoniq"
+        },
+        {
+            "name": "geo_scatter",
+            "display_name": "Geo-Scatter\u00ae",
+            "tab_name": "Geo-Scatter",
+            "identifier": "bl_ext.user_default.geo_scatter",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Geo-Scatter"
+        },
+        {
+            "name": "plasticity-blender-addon-main",
+            "display_name": "Plasticity",
+            "tab_name": "Plasticity",
+            "identifier": "plasticity-blender-addon-main",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Plasticity"
+        },
+        {
+            "name": "simply_cloth_studio",
+            "display_name": "Simply Cloth Studio",
+            "tab_name": "Simply Addons",
+            "identifier": "bl_ext.user_default.simply_cloth_studio",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Simply Addons"
+        },
+        {
+            "name": "render_raw-Render",
+            "display_name": "Render Raw (Render)",
+            "tab_name": "Render",
+            "identifier": "bl_ext.user_default.render_raw",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Render"
+        },
+        {
+            "name": "render_raw-None",
+            "display_name": "Render Raw (None)",
+            "tab_name": "None",
+            "identifier": "bl_ext.user_default.render_raw",
+            "space": "VIEW_3D",
+            "backup_tab_name": "None"
+        },
+        {
+            "name": "MESHmachine",
+            "display_name": "MESHmachine",
+            "tab_name": "MACHIN3",
+            "identifier": "MESHmachine",
+            "space": "VIEW_3D",
+            "backup_tab_name": "MACHIN3"
+        },
+        {
+            "name": "blenderkit",
+            "display_name": "BlenderKit Online Asset Library",
+            "tab_name": "BlenderKit",
+            "identifier": "bl_ext.user_default.blenderkit",
+            "space": "VIEW_3D",
+            "backup_tab_name": "BlenderKit"
+        },
+        {
+            "name": "poliigon-addon-blender",
+            "display_name": "Poliigon",
+            "tab_name": "Poliigon",
+            "identifier": "poliigon-addon-blender",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Poliigon"
+        },
+        {
+            "name": "fluent_materializer",
+            "display_name": "Fluent Materializer",
+            "tab_name": "Fluent",
+            "identifier": "bl_ext.user_default.fluent_materializer",
+            "space": "VIEW_3D",
+            "backup_tab_name": "Fluent"
+        }
+    ],
+    "addon_info_index": 0,
+    "addon_info_for_renaming_index": 0,
+    "addon_info_image_editor": [
+        {
+            "name": "Mat List",
+            "display_name": "",
+            "addons": ",all_material_list",
+            "ordered": ""
+        },
+        {
+            "name": "Mask",
+            "display_name": "",
+            "addons": ",bl_ui",
+            "ordered": ""
+        },
+        {
+            "name": "Tool",
+            "display_name": "",
+            "addons": ",bl_ui",
+            "ordered": ""
+        },
+        {
+            "name": "View",
+            "display_name": "",
+            "addons": ",bl_ui",
+            "ordered": ""
+        },
+        {
+            "name": "Image",
+            "display_name": "",
+            "addons": ",bl_ui",
+            "ordered": ""
+        },
+        {
+            "name": "Scopes",
+            "display_name": "",
+            "addons": ",bl_ui",
+            "ordered": ""
+        },
+        {
+            "name": "Simply",
+            "display_name": "",
+            "addons": ",simply_cloth_studio",
+            "ordered": ""
+        }
+    ],
+    "addon_info_for_renaming_image_editor": [
+        {
+            "name": "all_material_list",
+            "display_name": "All Material List",
+            "tab_name": "Mat List",
+            "identifier": "bl_ext.blender4_com.all_material_list",
+            "space": "IMAGE_EDITOR",
+            "backup_tab_name": "Mat List"
+        },
+        {
+            "name": "simply_cloth_studio",
+            "display_name": "Simply Cloth Studio",
+            "tab_name": "Simply",
+            "identifier": "bl_ext.user_default.simply_cloth_studio",
+            "space": "IMAGE_EDITOR",
+            "backup_tab_name": "Simply"
+        }
+    ],
+    "addon_info_image_editor_index": 0,
+    "addon_info_for_renaming_image_editor_index": 0,
+    "addon_info_node_editor": [
+        {
+            "name": "Options",
+            "display_name": "",
+            "addons": "cycles,bl_ui",
+            "ordered": ""
+        },
+        {
+            "name": "Node",
+            "display_name": "",
+            "addons": ",bl_ui",
+            "ordered": ""
+        },
+        {
+            "name": "Tool",
+            "display_name": "",
+            "addons": ",bl_ui",
+            "ordered": ""
+        },
+        {
+            "name": "View",
+            "display_name": "",
+            "addons": ",bl_ui",
+            "ordered": ""
+        },
+        {
+            "name": "Group",
+            "display_name": "",
+            "addons": ",bl_ui",
+            "ordered": ""
+        },
+        {
+            "name": "Node Wrangler",
+            "display_name": "",
+            "addons": ",node_wrangler",
+            "ordered": ""
+        },
+        {
+            "name": "VTools",
+            "display_name": "",
+            "addons": ",vtools",
+            "ordered": ""
+        },
+        {
+            "name": "BlenderKit",
+            "display_name": "",
+            "addons": ",blenderkit",
+            "ordered": ""
+        },
+        {
+            "name": "Fluent",
+            "display_name": "",
+            "addons": ",fluent_materializer",
+            "ordered": ""
+        }
+    ],
+    "addon_info_for_renaming_node_editor": [
+        {
+            "name": "cycles",
+            "display_name": "Cycles Render Engine",
+            "tab_name": "Options",
+            "identifier": "cycles",
+            "space": "NODE_EDITOR",
+            "backup_tab_name": "Options"
+        },
+        {
+            "name": "node_wrangler",
+            "display_name": "Node Wrangler",
+            "tab_name": "Node Wrangler",
+            "identifier": "node_wrangler",
+            "space": "NODE_EDITOR",
+            "backup_tab_name": "Node Wrangler"
+        },
+        {
+            "name": "vtools",
+            "display_name": "VTools",
+            "tab_name": "VTools",
+            "identifier": "vtools",
+            "space": "NODE_EDITOR",
+            "backup_tab_name": "VTools"
+        },
+        {
+            "name": "render_raw-None",
+            "display_name": "Render Raw (None)",
+            "tab_name": "None",
+            "identifier": "bl_ext.user_default.render_raw",
+            "space": "NODE_EDITOR",
+            "backup_tab_name": "None"
+        },
+        {
+            "name": "render_raw",
+            "display_name": "Render Raw",
+            "tab_name": "Render",
+            "identifier": "bl_ext.user_default.render_raw",
+            "space": "NODE_EDITOR",
+            "backup_tab_name": "Render"
+        },
+        {
+            "name": "blenderkit",
+            "display_name": "BlenderKit Online Asset Library",
+            "tab_name": "BlenderKit",
+            "identifier": "bl_ext.user_default.blenderkit",
+            "space": "NODE_EDITOR",
+            "backup_tab_name": "BlenderKit"
+        },
+        {
+            "name": "fluent_materializer",
+            "display_name": "Fluent Materializer",
+            "tab_name": "Fluent",
+            "identifier": "bl_ext.user_default.fluent_materializer",
+            "space": "NODE_EDITOR",
+            "backup_tab_name": "Fluent"
+        }
+    ],
+    "addon_info_node_editor_index": 0,
+    "addon_info_for_renaming_node_editor_index": 0,
+    "injected_code": false,
+    "injected_code_tracking": false,
+    "delayed_loading_code_injected": false,
+    "columm_layout_for_popup": true,
+    "use_verticle_menu": true,
+    "dropdown_width": 16,
+    "show_dropdown_search": false,
+    "categories": {
+        "filter_enabled": false,
+        "filter_enabled_node_editor": false,
+        "filter_enabled_image_editor": false,
+        "enabled_0": false,
+        "enabled_1": false,
+        "enabled_2": false,
+        "enabled_3": false,
+        "enabled_4": false,
+        "enabled_5": false,
+        "enabled_6": false,
+        "enabled_7": false,
+        "enabled_8": false,
+        "enabled_9": false,
+        "enabled_10": false,
+        "enabled_11": false,
+        "enabled_12": false,
+        "enabled_13": false,
+        "enabled_14": false,
+        "enabled_15": false,
+        "enabled_16": false,
+        "enabled_17": false,
+        "enabled_18": false,
+        "enabled_19": false,
+        "enabled_20": false,
+        "enabled_21": false,
+        "enabled_22": false,
+        "enabled_23": false,
+        "enabled_24": false,
+        "enabled_25": false,
+        "enabled_26": false,
+        "enabled_27": false,
+        "enabled_28": false,
+        "enabled_29": false,
+        "enabled_30": false,
+        "enabled_31": false,
+        "enabled_32": false,
+        "enabled_33": false,
+        "enabled_34": false,
+        "enabled_35": false,
+        "enabled_36": false,
+        "enabled_37": false,
+        "enabled_38": false,
+        "enabled_39": false,
+        "enabled_40": false,
+        "enabled_41": false,
+        "enabled_42": false,
+        "enabled_43": false,
+        "enabled_44": false,
+        "enabled_45": false,
+        "enabled_46": false,
+        "enabled_47": false,
+        "enabled_48": false,
+        "enabled_49": false,
+        "enabled_node_editor_0": false,
+        "enabled_node_editor_1": false,
+        "enabled_node_editor_2": false,
+        "enabled_node_editor_3": false,
+        "enabled_node_editor_4": false,
+        "enabled_node_editor_5": false,
+        "enabled_node_editor_6": false,
+        "enabled_node_editor_7": false,
+        "enabled_node_editor_8": false,
+        "enabled_node_editor_9": false,
+        "enabled_node_editor_10": false,
+        "enabled_node_editor_11": false,
+        "enabled_node_editor_12": false,
+        "enabled_node_editor_13": false,
+        "enabled_node_editor_14": false,
+        "enabled_node_editor_15": false,
+        "enabled_node_editor_16": false,
+        "enabled_node_editor_17": false,
+        "enabled_node_editor_18": false,
+        "enabled_node_editor_19": false,
+        "enabled_node_editor_20": false,
+        "enabled_node_editor_21": false,
+        "enabled_node_editor_22": false,
+        "enabled_node_editor_23": false,
+        "enabled_node_editor_24": false,
+        "enabled_node_editor_25": false,
+        "enabled_node_editor_26": false,
+        "enabled_node_editor_27": false,
+        "enabled_node_editor_28": false,
+        "enabled_node_editor_29": false,
+        "enabled_node_editor_30": false,
+        "enabled_node_editor_31": false,
+        "enabled_node_editor_32": false,
+        "enabled_node_editor_33": false,
+        "enabled_node_editor_34": false,
+        "enabled_node_editor_35": false,
+        "enabled_node_editor_36": false,
+        "enabled_node_editor_37": false,
+        "enabled_node_editor_38": false,
+        "enabled_node_editor_39": false,
+        "enabled_node_editor_40": false,
+        "enabled_node_editor_41": false,
+        "enabled_node_editor_42": false,
+        "enabled_node_editor_43": false,
+        "enabled_node_editor_44": false,
+        "enabled_node_editor_45": false,
+        "enabled_node_editor_46": false,
+        "enabled_node_editor_47": false,
+        "enabled_node_editor_48": false,
+        "enabled_node_editor_49": false,
+        "enabled_image_editor_0": false,
+        "enabled_image_editor_1": false,
+        "enabled_image_editor_2": false,
+        "enabled_image_editor_3": false,
+        "enabled_image_editor_4": false,
+        "enabled_image_editor_5": false,
+        "enabled_image_editor_6": false,
+        "enabled_image_editor_7": false,
+        "enabled_image_editor_8": false,
+        "enabled_image_editor_9": false,
+        "enabled_image_editor_10": false,
+        "enabled_image_editor_11": false,
+        "enabled_image_editor_12": false,
+        "enabled_image_editor_13": false,
+        "enabled_image_editor_14": false,
+        "enabled_image_editor_15": false,
+        "enabled_image_editor_16": false,
+        "enabled_image_editor_17": false,
+        "enabled_image_editor_18": false,
+        "enabled_image_editor_19": false,
+        "enabled_image_editor_20": false,
+        "enabled_image_editor_21": false,
+        "enabled_image_editor_22": false,
+        "enabled_image_editor_23": false,
+        "enabled_image_editor_24": false,
+        "enabled_image_editor_25": false,
+        "enabled_image_editor_26": false,
+        "enabled_image_editor_27": false,
+        "enabled_image_editor_28": false,
+        "enabled_image_editor_29": false,
+        "enabled_image_editor_30": false,
+        "enabled_image_editor_31": false,
+        "enabled_image_editor_32": false,
+        "enabled_image_editor_33": false,
+        "enabled_image_editor_34": false,
+        "enabled_image_editor_35": false,
+        "enabled_image_editor_36": false,
+        "enabled_image_editor_37": false,
+        "enabled_image_editor_38": false,
+        "enabled_image_editor_39": false,
+        "enabled_image_editor_40": false,
+        "enabled_image_editor_41": false,
+        "enabled_image_editor_42": false,
+        "enabled_image_editor_43": false,
+        "enabled_image_editor_44": false,
+        "enabled_image_editor_45": false,
+        "enabled_image_editor_46": false,
+        "enabled_image_editor_47": false,
+        "enabled_image_editor_48": false,
+        "enabled_image_editor_49": false
+    },
+    "filtering_method": "Use N-Panel Filtering",
+    "show_advanced": false,
+    "use_dropdowns": true,
+    "sort_per_category": false,
+    "holder_tab_name": "DUMP",
+    "remove_holder_tab": true,
+    "custom_icons_dir": "",
+    "sort_focus_menu_based_on_clicks": false,
+    "addon_desc_info": [],
+    "filtering_per_workspace": false,
+    "only_show_unfiltered_panels": true,
+    "show_delete_buttons_in_quick_settings": false,
+    "move_dropdowns_to_toolbar": false,
+    "space_type": "VIEW_3D",
+    "show_favorites": false,
+    "favorites": [],
+    "favorites_index": 0,
+    "filter_internal_tabs": false,
+    "delayed_addons_loaded": false,
+    "atl_list": "",
+    "show_pro_options": false,
+    "show_enabledisable_in_quick_settings": false,
+    "show_fixes": false,
+    "zen_uv_fix": false,
+    "show_help": false,
+    "show_config_ie": false
+}

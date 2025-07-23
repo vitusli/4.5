@@ -1,0 +1,26 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Datablock: role.loose_environment_map",
+	"$id": "af.datablock.role.loose_environment_map",
+	"description": "Marks a component as an environment map.",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"environment_name": {
+			"type": [
+				"string",
+				"null"
+			]
+		},
+		"projection": {
+			"type": [
+				"string",
+				"null"
+			],
+			"enum": [
+				"equirectangular",
+				"mirror_ball"
+			]
+		}
+	}
+}

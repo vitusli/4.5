@@ -1,0 +1,66 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Datablock: provider_configuration",
+	"$id": "af.datablock.provider_configuration",
+	"description": "Describes which headers the provider expects to receive from the client on every subsequent request.",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"acquisition_uri": {
+			"type": "string",
+			"format": "uri"
+		},
+		"acquisition_uri_title": {
+			"type": "string"
+		},
+		"headers": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"default": {
+						"type": "string"
+					},
+					"is_required": {
+						"type": "boolean"
+					},
+					"is_sensitive": {
+						"type": "boolean"
+					},
+					"prefix": {
+						"type": "string"
+					},
+					"suffix": {
+						"type": "string"
+					},
+					"title": {
+						"type": "string"
+					},
+					"encoding": {
+						"type": "string",
+						"enum": [
+							"plain",
+							"base64"
+						]
+					}
+				},
+				"additionalProperties": false,
+				"required": [
+					"name",
+					"is_sensitive",
+					"is_required"
+				]
+			}
+		},
+		"connection_status_query": {
+			"$ref": "../template/fixed_query.json"
+		}
+	},
+	"required": [
+		"headers",
+		"connection_status_query"
+	]
+}

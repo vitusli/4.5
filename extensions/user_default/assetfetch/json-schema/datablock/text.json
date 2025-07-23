@@ -1,0 +1,19 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Datablock: text",
+	"$id": "af.datablock.text",
+	"description": "Contains general text information to be displayed to the user.",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"title": {
+			"type": "string"
+		},
+		"description": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"title"
+	]
+}

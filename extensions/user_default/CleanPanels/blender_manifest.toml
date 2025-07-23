@@ -1,0 +1,25 @@
+schema_version = "1.0.0"
+id = "CleanPanels"
+version = "7.0.3"
+name = "CleanPanels"
+tagline = "Panels and Workspace Manager"
+maintainer = "Amandeep and Vectorr66"
+type = "add-on"
+website = "https://rantools.github.io/clean-panels/"
+tags = ["Pipeline","User Interface"]
+
+blender_version_min = "3.6.0"
+
+
+# License conforming to https://spdx.org/licenses/ (use "SPDX: prefix)
+# https://docs.blender.org/manual/en/dev/advanced/extensions/licenses.html
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
+copyright = [
+    "2024 Amandeep and Vectorr66",
+]
+
+[permissions]
+files = "To save and load settings"
+network = "To check for addon updates"

@@ -1,0 +1,111 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Template:Variable Query",
+	"$id": "af.template.variable_query",
+	"description": "This template describes a variable HTTP query that is configurable by the user.",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"uri": {
+			"type": "string",
+			"format": "uri"
+		},
+		"method": {
+			"type": "string",
+			"enum": [
+				"get",
+				"post"
+			]
+		},
+		"parameters": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"type": {
+						"type": "string",
+						"enum": [
+							"text",
+							"boolean",
+							"fixed",
+							"select"
+						]
+					},
+					"id": {
+						"type": "string"
+					},
+					"title": {
+						"type": [
+							"string",
+							"null"
+						]
+					},
+					"default": {
+						"type": [
+							"string",
+							"null"
+						]
+					},
+					"choices": {
+						"type": [
+							"array",
+							"null"
+						]
+					}
+				},
+				"$comment": "This if-clause ensures that the 'choices' array is required only if 'select' mode is used.",
+				"if": {
+					"properties": {
+						"type": {
+							"const": "select"
+						}
+					}
+				},
+				"then": {
+					"properties": {
+						"choices": {
+							"type": "array",
+							"minItems": 1,
+							"items": {
+								"type": "object",
+								"additionalProperties": false,
+								"properties": {
+									"value": {
+										"type": "string"
+									},
+									"title": {
+										"type": "string"
+									}
+								},
+								"required": [
+									"value",
+									"title"
+								]
+							}
+						}
+					},
+					"required": [
+						"choices"
+					]
+				},
+				"else": {
+					"properties": {
+						"choices": {
+							"type": "null"
+						}
+					}
+				},
+				"required": [
+					"type",
+					"id"
+				]
+			}
+		}
+	},
+	"required": [
+		"uri",
+		"method",
+		"parameters"
+	]
+}

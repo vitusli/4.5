@@ -1,0 +1,9 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Datablock: role.native",
+	"$id": "af.datablock.role.native",
+	"description": "This datablock indicates that this file should be handled by the host application's native import functionality.",
+	"type": "object",
+	"properties": {},
+	"additionalProperties": false
+}
