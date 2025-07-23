@@ -1,0 +1,1030 @@
+{
+    "tab_name": "Geo-Scatter",
+    "fetch_automatic_allow": true,
+    "fetch_automatic_daycount": 6,
+    "library_path": "/Users/vituspacholleck/Library/Application Support/Blender/data/scatter library",
+    "blend_environment_search_cache_system": true,
+    "blend_environment_search_depth": 3,
+    "blend_environment_scatterlib_allow": true,
+    "blend_environment_path_allow": false,
+    "blend_environment_path_asset_browser_allow": true,
+    "blend_environment_paths": [],
+    "blend_environment_paths_idx": 0,
+    "emitter_method": "pointer",
+    "opti_also_hide_mod": false,
+    "ui_library_item_size": 7.0,
+    "ui_library_typo_limit": 40,
+    "ui_library_adaptive_columns": true,
+    "ui_library_columns": 4,
+    "ui_lister_scale_y": 1.2000000476837158,
+    "ui_use_dark_box": false,
+    "ui_show_boxpanel_icon": false,
+    "ui_selection_y": 0.8600000143051147,
+    "ui_boxpanel_separator": 1.0,
+    "ui_boxpanel_height": 1.2000000476837158,
+    "ui_bool_use_standard": false,
+    "ui_bool_use_arrow_openclose": true,
+    "ui_bool_use_iconcross": false,
+    "ui_bool_indentation": 0.07000000029802322,
+    "ui_word_wrap_max_char_factor": 1.0,
+    "ui_word_wrap_y": 0.800000011920929,
+    "ui_apply_scale_warn": true,
+    "manual_theme": {
+        "name": "",
+        "show_ui": false,
+        "circle_steps": 32,
+        "fixed_radius_default": 48,
+        "fixed_center_dot_radius_default": 3,
+        "no_entry_sign_size_default": 16,
+        "no_entry_sign_color": [
+            1.0,
+            1.0,
+            1.0,
+            0.5
+        ],
+        "no_entry_sign_thickness_default": 2,
+        "default_outline_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "default_outline_color_press": [
+            1.0,
+            1.0,
+            0.5,
+            1.0
+        ],
+        "outline_color_eraser": [
+            1.0,
+            0.5,
+            0.4000000059604645,
+            1.0
+        ],
+        "outline_color_hint": [
+            0.4000000059604645,
+            1.0,
+            1.0,
+            0.125
+        ],
+        "outline_color_disabled_alpha": 0.5,
+        "outline_color_helper_alpha": 0.25,
+        "outline_color_gesture_helper_alpha": 0.5,
+        "outline_color_falloff_helper_alpha": 0.5,
+        "outline_thickness_default": 2,
+        "outline_thickness_helper_default": 1,
+        "outline_dashed_steps_multiplier": 2,
+        "default_fill_color": [
+            1.0,
+            1.0,
+            1.0,
+            0.05000000074505806
+        ],
+        "default_fill_color_press": [
+            1.0,
+            1.0,
+            0.5,
+            0.05000000074505806
+        ],
+        "fill_color_press_eraser": [
+            1.0,
+            0.5,
+            0.4000000059604645,
+            0.05000000074505806
+        ],
+        "fill_color_helper_hint": [
+            0.4000000059604645,
+            1.0,
+            1.0,
+            0.0031250000465661287
+        ],
+        "fill_color_disabled_alpha": 0.02500000037252903,
+        "fill_color_helper_alpha": 0.012500000186264515,
+        "fill_color_gesture_helper_alpha": 0.10000000149011612,
+        "text_size_default": 11,
+        "text_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "text_tooltip_outline_color": [
+            0.11999999731779099,
+            0.11999999731779099,
+            0.11999999731779099,
+            0.949999988079071
+        ],
+        "text_tooltip_background_color": [
+            0.11999999731779099,
+            0.11999999731779099,
+            0.11999999731779099,
+            0.949999988079071
+        ],
+        "text_tooltip_outline_thickness": 2,
+        "point_size_default": 4,
+        "grid_overlay_size": 1,
+        "grid_overlay_color_a": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "grid_overlay_color_b": [
+            0.0,
+            0.0,
+            0.0,
+            0.25
+        ],
+        "info_box_scale": 1.0,
+        "info_box_shadow_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.5
+        ],
+        "info_box_fill_color": [
+            0.11999999731779099,
+            0.11999999731779099,
+            0.11999999731779099,
+            0.949999988079071
+        ],
+        "info_box_outline_color": [
+            0.11999999731779099,
+            0.11999999731779099,
+            0.11999999731779099,
+            0.949999988079071
+        ],
+        "info_box_outline_thickness_default": 2,
+        "info_box_logo_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "info_box_text_header_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ],
+        "info_box_text_body_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ]
+    },
+    "manual_use_overlay": true,
+    "manual_show_infobox": true,
+    "debug_interface": false,
+    "debug": false,
+    "debug_depsgraph": false,
+    "shortcuts": [
+        [
+            "Window",
+            {
+                "space_type": "EMPTY",
+                "region_type": "WINDOW"
+            },
+            {
+                "items": [
+                    [
+                        "scatter5.define_add_psy",
+                        {
+                            "type": "J",
+                            "value": "PRESS",
+                            "alt": 1
+                        },
+                        {
+                            "active": true,
+                            "properties": [
+                                [
+                                    "operation_type",
+                                    ""
+                                ],
+                                [
+                                    "description",
+                                    ""
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "scatter5.quick_lister",
+                        {
+                            "type": "Q",
+                            "value": "PRESS",
+                            "shift": 1,
+                            "ctrl": 1
+                        },
+                        {
+                            "active": true,
+                            "properties": [
+                                [
+                                    "instance_type",
+                                    "UNDEFINED"
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "scatter5.quick_lister",
+                        {
+                            "type": "Q",
+                            "value": "PRESS",
+                            "shift": 1,
+                            "ctrl": 1
+                        },
+                        {
+                            "active": true,
+                            "properties": [
+                                [
+                                    "instance_type",
+                                    "UNDEFINED"
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            }
+        ],
+        [
+            "3D View",
+            {
+                "space_type": "VIEW_3D",
+                "region_type": "WINDOW"
+            },
+            {
+                "items": [
+                    [
+                        "scatter5.manual_brush_tool_spray",
+                        {
+                            "type": "FIVE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_spray",
+                        {
+                            "type": "FIVE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_drop_down",
+                        {
+                            "type": "NONE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_drop_down",
+                        {
+                            "type": "NONE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_chain",
+                        {
+                            "type": "THREE",
+                            "value": "PRESS",
+                            "shift": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_chain",
+                        {
+                            "type": "THREE",
+                            "value": "PRESS",
+                            "shift": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_spray_aligned",
+                        {
+                            "type": "FIVE",
+                            "value": "PRESS",
+                            "shift": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_spray_aligned",
+                        {
+                            "type": "FIVE",
+                            "value": "PRESS",
+                            "shift": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_free_move",
+                        {
+                            "type": "M",
+                            "value": "PRESS",
+                            "shift": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_free_move",
+                        {
+                            "type": "M",
+                            "value": "PRESS",
+                            "shift": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_attract_repulse",
+                        {
+                            "type": "NONE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_attract_repulse",
+                        {
+                            "type": "NONE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_push",
+                        {
+                            "type": "NONE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_push",
+                        {
+                            "type": "NONE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_z_align",
+                        {
+                            "type": "U",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_z_align",
+                        {
+                            "type": "U",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_path",
+                        {
+                            "type": "THREE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_path",
+                        {
+                            "type": "THREE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_rotation_set",
+                        {
+                            "type": "R",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_rotation_set",
+                        {
+                            "type": "R",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_spatter",
+                        {
+                            "type": "FOUR",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_spatter",
+                        {
+                            "type": "FOUR",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_object_set",
+                        {
+                            "type": "O",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_object_set",
+                        {
+                            "type": "O",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_pose",
+                        {
+                            "type": "TWO",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_pose",
+                        {
+                            "type": "TWO",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_eraser",
+                        {
+                            "type": "E",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_eraser",
+                        {
+                            "type": "E",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_clone",
+                        {
+                            "type": "C",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_clone",
+                        {
+                            "type": "C",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_line",
+                        {
+                            "type": "THREE",
+                            "value": "PRESS",
+                            "ctrl": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_line",
+                        {
+                            "type": "THREE",
+                            "value": "PRESS",
+                            "ctrl": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_grow_shrink",
+                        {
+                            "type": "A",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_grow_shrink",
+                        {
+                            "type": "A",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_relax2",
+                        {
+                            "type": "NONE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_relax2",
+                        {
+                            "type": "NONE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_enter",
+                        {
+                            "type": "M",
+                            "value": "PRESS",
+                            "shift": 1,
+                            "ctrl": 1,
+                            "alt": 1
+                        },
+                        {
+                            "active": true
+                        }
+                    ],
+                    [
+                        "scatter5.manual_enter",
+                        {
+                            "type": "M",
+                            "value": "PRESS",
+                            "shift": 1,
+                            "ctrl": 1,
+                            "alt": 1
+                        },
+                        {
+                            "active": true
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_random_rotation",
+                        {
+                            "type": "T",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_random_rotation",
+                        {
+                            "type": "T",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_move",
+                        {
+                            "type": "M",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_move",
+                        {
+                            "type": "M",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_comb",
+                        {
+                            "type": "Y",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_comb",
+                        {
+                            "type": "Y",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_dilute",
+                        {
+                            "type": "E",
+                            "value": "PRESS",
+                            "shift": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_dilute",
+                        {
+                            "type": "E",
+                            "value": "PRESS",
+                            "shift": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_lasso_fill",
+                        {
+                            "type": "SIX",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_lasso_fill",
+                        {
+                            "type": "SIX",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_scale_set",
+                        {
+                            "type": "S",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_scale_set",
+                        {
+                            "type": "S",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_dot",
+                        {
+                            "type": "ONE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_dot",
+                        {
+                            "type": "ONE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_lasso_eraser",
+                        {
+                            "type": "E",
+                            "value": "PRESS",
+                            "ctrl": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_lasso_eraser",
+                        {
+                            "type": "E",
+                            "value": "PRESS",
+                            "ctrl": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_manipulator",
+                        {
+                            "type": "G",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_manipulator",
+                        {
+                            "type": "G",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_turbulence2",
+                        {
+                            "type": "NONE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_turbulence2",
+                        {
+                            "type": "NONE",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_spin",
+                        {
+                            "type": "Y",
+                            "value": "PRESS",
+                            "shift": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ],
+                    [
+                        "scatter5.manual_brush_tool_spin",
+                        {
+                            "type": "Y",
+                            "value": "PRESS",
+                            "shift": 1
+                        },
+                        {
+                            "active": false
+                        }
+                    ]
+                ]
+            }
+        ],
+        [
+            "3D View",
+            {
+                "space_type": "VIEW_3D",
+                "region_type": "WINDOW"
+            },
+            {
+                "items": [
+                    [
+                        "scatter5.manual_tool_gesture",
+                        {
+                            "type": "F",
+                            "value": "PRESS",
+                            "shift": 1,
+                            "ctrl": 1
+                        },
+                        {
+                            "active": false,
+                            "properties": [
+                                [
+                                    "gesture",
+                                    "QUATERNARY"
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "scatter5.manual_tool_gesture",
+                        {
+                            "type": "F",
+                            "value": "PRESS",
+                            "shift": 1
+                        },
+                        {
+                            "active": false,
+                            "properties": [
+                                [
+                                    "gesture",
+                                    "TERTIARY"
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "scatter5.manual_tool_gesture",
+                        {
+                            "type": "F",
+                            "value": "PRESS",
+                            "ctrl": 1
+                        },
+                        {
+                            "active": false,
+                            "properties": [
+                                [
+                                    "gesture",
+                                    "SECONDARY"
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "scatter5.manual_tool_gesture",
+                        {
+                            "type": "F",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false,
+                            "properties": [
+                                [
+                                    "gesture",
+                                    "PRIMARY"
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "scatter5.manual_tool_gesture",
+                        {
+                            "type": "F",
+                            "value": "PRESS",
+                            "shift": 1,
+                            "ctrl": 1
+                        },
+                        {
+                            "active": false,
+                            "properties": [
+                                [
+                                    "gesture",
+                                    "PRIMARY"
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "scatter5.manual_tool_gesture",
+                        {
+                            "type": "F",
+                            "value": "PRESS",
+                            "shift": 1
+                        },
+                        {
+                            "active": false,
+                            "properties": [
+                                [
+                                    "gesture",
+                                    "PRIMARY"
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "scatter5.manual_tool_gesture",
+                        {
+                            "type": "F",
+                            "value": "PRESS",
+                            "ctrl": 1
+                        },
+                        {
+                            "active": false,
+                            "properties": [
+                                [
+                                    "gesture",
+                                    "PRIMARY"
+                                ]
+                            ]
+                        }
+                    ],
+                    [
+                        "scatter5.manual_tool_gesture",
+                        {
+                            "type": "F",
+                            "value": "PRESS"
+                        },
+                        {
+                            "active": false,
+                            "properties": [
+                                [
+                                    "gesture",
+                                    "PRIMARY"
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            }
+        ]
+    ]
+}

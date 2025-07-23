@@ -1,0 +1,48 @@
+# This is an Asset Catalog Definition file for Blender.
+#
+# Empty lines and lines starting with `#` will be ignored.
+# The first non-ignored line should be the version indicator.
+# Other lines are of the format "UUID:catalog/path/for/assets:simple catalog name"
+
+VERSION 1
+
+6b4ab31e-ac37-45fe-8ff5-e70ac43b8ee6:Geo Nodes:Geo Nodes
+836645cd-add2-44f3-8935-35c852b727f0:Geo Nodes:Geo Nodes
+a4e12b05-4e83-481a-bc4a-73f93b0830fc:Geo Nodes:Geo Nodes
+e3e66be3-ed97-40bf-97a6-0ea78bdcc458:Geo Nodes:Geo Nodes
+cab2d386-ee05-4ecb-8c78-3b71f55c5886:Geo Nodes/Callouts:Geo Nodes-Callouts
+ba294c05-be7a-4974-b1fb-45b4c608e45f:Geo Nodes/Dust Particles:Geo Nodes-Dust Particles
+6ad031cd-3f82-48a7-a744-99f90f884cf0:Geo Nodes/Utilities:Geo Nodes-Utilities
+c0b0b9f4-b623-4e3c-ae0a-8854d41c88a7:Texturing:Texturing
+1a0ae34d-41ee-4964-aa3c-5cc8ba1d9c0b:Texturing/Vtools:Texturing-Vtools
+
+98512004-e3be-4b8f-9db4-72762b609f85:KS Extra Nodes:KS Extra Nodes
+f3634ddf-35bc-4ada-8fe9-c18b5f03d88f:KS Extra Nodes/Curve:KS Extra Nodes-Curve
+c4b27989-61c1-4ddb-80b8-e12fa1fabce4:KS Extra Nodes/Effect:KS Extra Nodes-Effect
+76cf7d3b-a529-4564-b2d2-9de2d9625f63:KS Extra Nodes/Effect/Goosebumps:KS Extra Nodes-Effect-Goosebumps
+a3f09b62-2c63-4338-a974-f4ae706c36c4:KS Extra Nodes/Effect/Laser:KS Extra Nodes-Effect-Laser
+8e06ec84-4ef4-4339-b774-8d1fbb8cd612:KS Extra Nodes/Falloff:KS Extra Nodes-Falloff
+4b2dad4a-d3af-4641-bd64-ee42fe3c6d43:KS Extra Nodes/Field:KS Extra Nodes-Field
+73d35801-6aed-487b-ad99-d48d6083bb1f:KS Extra Nodes/Force:KS Extra Nodes-Force
+b7317818-096b-437f-87a6-a2307a93eff7:KS Extra Nodes/Growth System:KS Extra Nodes-Growth System
+ca5ccd12-07a8-417e-8ef6-2f71ba23971b:KS Extra Nodes/Growth System/Curve:KS Extra Nodes-Growth System-Curve
+efbc5587-ba19-4170-bdd7-7d88c784991a:KS Extra Nodes/Mesh:KS Extra Nodes-Mesh
+f2ffef8f-dff6-401a-bb29-1ac7450f79fe:KS Extra Nodes/Particle System:KS Extra Nodes-Particle System
+13f918da-f778-4ebd-886e-c97dcd12b1e3:KS Extra Nodes/Particle System/Collision:KS Extra Nodes-Particle System-Collision
+b8bea8e0-4466-44a5-ae90-0f354f98bf73:KS Extra Nodes/Particle System/Material:KS Extra Nodes-Particle System-Material
+17911a76-5e5e-49ea-8c37-089016fc3c9d:KS Extra Nodes/Particle System/Object:KS Extra Nodes-Particle System-Object
+f9a8de64-a067-4d05-ba0a-f032197cbfc1:KS Extra Nodes/Particle System/System:KS Extra Nodes-Particle System-System
+3d420d8a-e142-4ac3-b60c-fb0b5914d315:KS Extra Nodes/Particle System/Utilities:KS Extra Nodes-Particle System-Utilities
+528c6627-b911-4602-95ed-255da6e2b035:KS Extra Nodes/Relaxing Particles:KS Extra Nodes-Relaxing Particles
+aa79a7a0-deb4-4867-8742-3c5d6f91ac7f:KS Extra Nodes/Scatter:KS Extra Nodes-Scatter
+53f1fac1-ccfa-4300-8414-bbc43f731afd:KS Extra Nodes/Tracer:KS Extra Nodes-Tracer
+40f154bb-eba0-400f-b683-5206ef14a148:KS Extra Nodes/Tracer/Material:KS Extra Nodes-Tracer-Material
+190d31de-1b6c-4013-af03-2a2653d0fba1:KS Extra Nodes/Tracer/Types:KS Extra Nodes-Tracer-Types
+5f4d8fd2-ecfb-4c52-bad8-728a5b263127:KS Extra Nodes/Tracer/Utilities:KS Extra Nodes-Tracer-Utilities
+ced517d6-0147-4fb6-a143-cafc94ccb6da:KS Extra Nodes/Utilities:KS Extra Nodes-Utilities
+ccbb7644-c4ac-44c0-b0f9-a3fe5590df20:KS Extra Nodes/Volume:KS Extra Nodes-Volume
+47b393a7-8bb5-433c-957f-9ddcd4ac5ea4:KS Extra Nodes/XPBD Physics:KS Extra Nodes-XPBD Physics
+9a9cb6a7-2055-45b8-97d2-67ab3567b356:KS Extra Nodes/XPBD Physics/Material:KS Extra Nodes-XPBD Physics-Material
+204a8076-b0e9-4893-8608-3f337b8bbbb1:KS Extra Nodes/XPBD Physics/Object:KS Extra Nodes-XPBD Physics-Object
+9ba67376-ee11-441e-87f2-9f18ab9af347:KS Extra Nodes/XPBD Physics/Solver:KS Extra Nodes-XPBD Physics-Solver
+7ddbbfeb-196f-455e-955b-a2a91d246ed7:KS Extra Nodes/XPBD Physics/Utilities:KS Extra Nodes-XPBD Physics-Utilities
